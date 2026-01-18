@@ -1,0 +1,829 @@
+/* Service Details Custom Layout Rebuild */
+
+/* 1. Layout Structure & Spacing */
+.service-details {
+    padding: 120px 0;
+    overflow: hidden;
+    /* Prevent overflow issues */
+}
+
+/* Ensure the row respects the 2-column layout strictly */
+.service-details .row {
+    --bs-gutter-x: 30px;
+    /* Ensure 30px+ gap */
+    justify-content: space-between;
+    /* Spacing between columns */
+}
+
+/* 2. Sidebar Styling */
+
+/* 2. Sidebar Styling */
+/* Wrapper Style */
+.service-details__sidebar-wrapper {
+    background-color: #EFF5F5;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.service-details__sidebar-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: var(--alefox-black, #1e1e1e);
+    display: flex;
+    align-items: center;
+}
+
+.service-details__sidebar-service-list {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.service-details__sidebar-service-list li {
+    margin-bottom: 10px;
+    opacity: 0;
+    /* Hidden initially for animation */
+    animation: slideInDownCustom 0.5s ease forwards;
+}
+
+@keyframes slideInDownCustom {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.service-details__sidebar-service-list li:last-child {
+    margin-bottom: 0;
+}
+
+.service-details__sidebar-service-list li a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 30px;
+    background-color: #ffffff;
+    /* White default */
+    color: var(--alefox-black, #1e1e1e);
+    /* Dark text */
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: all 0.4s ease-in-out;
+    /* Smooth transition */
+}
+
+/* Arrow Icon Styling */
+.service-details__sidebar-service-list li a i {
+    color: #636363;
+    /* Grey default */
+    font-size: 14px;
+    transition: color 0.4s ease-in-out;
+}
+
+/* Hover & Active State */
+.service-details__sidebar-service-list li a:hover,
+.service-details__sidebar-service-list li.current a,
+.service-details__sidebar-service-list li a.active {
+    background-color: #FFD700;
+    /* Flora Yellow */
+    color: #122f2a;
+    /* Black Text for contrast */
+    padding-left: 40px;
+    /* Slide Right effect */
+}
+
+/* Arrow becomes white on hover */
+.service-details__sidebar-service-list li a:hover i,
+.service-details__sidebar-service-list li.current a i,
+.service-details__sidebar-service-list li a.active i {
+    color: #122f2a;
+    /* Dark Arrow on Yellow */
+}
+
+/* Need Help Widget */
+.service-details__need-help {
+    position: relative;
+    margin-top: 0;
+    /* Margin handled by wrapper spacing */
+    padding: 50px 40px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #1e1e1e;
+    /* Fallback */
+    z-index: 1;
+    min-height: 400px;
+    /* Slightly adjusted to fit inside wrapper nicely */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.service-details__need-help-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.service-details__need-help-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.3;
+    margin-bottom: 25px;
+}
+
+.service-details__need-help-btn-box {
+    display: inline-block;
+}
+
+/* Button Color Fix */
+.service-details__need-help-btn-box .alefox-btn {
+    color: #ffffff !important;
+    border-color: #ffffff;
+}
+
+.service-details__need-help-btn-box .alefox-btn .alefox-btn__item {
+    background-color: #ffffff !important;
+}
+
+.service-details__need-help-btn-box .alefox-btn:hover {
+    color: #1e1e1e !important;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+
+/* 3. Main Content Styling */
+
+.service-details__right {
+    overflow: hidden;
+    /* Fix slider bleeding into sidebar */
+}
+
+.service-details__img {
+    margin-bottom: 40px;
+}
+
+.service-details__img img {
+    width: 100%;
+    border-radius: 10px;
+    /* Rounded corners */
+    display: block;
+}
+
+.service-details__title-1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--alefox-black, #1e1e1e);
+    margin-bottom: 20px;
+}
+
+.service-details__text-1 {
+    margin-bottom: 40px;
+}
+
+.service-details__title-2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.service-details__text-2 {
+    margin-bottom: 30px;
+}
+
+/* "What Can You Expect" Grid */
+.service-details__points-box {
+    margin-bottom: 40px;
+}
+
+.service-details__points-single {
+    background-color: #f6f4ec;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    /* Bottom spacing for mobile/grid rows */
+    height: 100%;
+    /* Equal height if flex */
+}
+
+.service-details__points-img {
+    margin-bottom: 20px;
+}
+
+.service-details__points-img img {
+    width: 60px;
+    /* Icon size */
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.service-details__points-title {
+    font-size: 18px;
+    /* Match FAQ H4 */
+    font-weight: 700;
+    /* Match Bold */
+    margin-bottom: 10px;
+    color: #1e1e1e;
+    /* Dark text */
+    font-family: var(--alefox-heading-font, "Inter", serif);
+    /* Ensure Header Font */
+}
+
+/* "Our Benefits" Section */
+.service-details__title-3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.service-details__text-3 {
+    margin-bottom: 30px;
+}
+
+.service-details__points.list-unstyled {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* Space between items */
+}
+
+.service-details__points.list-unstyled li {
+    display: flex;
+    align-items: center;
+    width: calc(50% - 15px);
+    /* 2 per row */
+    margin-bottom: 15px;
+}
+
+.service-details__points.list-unstyled li .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    background-color: rgba(68, 160, 91, 0.1);
+    /* Light Green bg */
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.service-details__points.list-unstyled li .icon span {
+    color: #44a05b;
+    /* Green Check */
+    font-size: 12px;
+}
+
+.service-details__points.list-unstyled li .text p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    /* Increased from 600 to match bold feel */
+    color: var(--alefox-text, #636363);
+}
+
+.service-details__points.list-unstyled li .text p strong {
+    font-family: var(--alefox-heading-font, "Inter", serif);
+    /* Ensure Header Font */
+    font-size: 18px;
+    /* Match FAQ Size */
+    color: #1e1e1e;
+    /* Darker */
+    font-weight: 700;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* 4. FAQ Accordion Rebuild */
+.service-details__faq {
+    background-color: #EFF5F5;
+    /* Light Grey Container */
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.service-details__faq-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1f1f25;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.accrodion-grp .accrodion {
+    border: none;
+    /* Removed green border */
+    padding: 20px 30px;
+    border-radius: 5px;
+    /* Slightly rounded */
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    /* White Item Background */
+    transition: all 0.3s ease;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.02);
+    /* Slight lift */
+}
+
+/* Remove active border color change */
+.accrodion-grp .accrodion.active {
+    border-color: transparent;
+}
+
+.accrodion-title h4 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    color: var(--alefox-black, #1e1e1e);
+    position: relative;
+    padding-right: 40px;
+    /* Space for icon */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accrodion.active .accrodion-title h4 {
+    color: #44a05b;
+    /* Green active title */
+}
+
+/* Icon Construction (Plus/Minus) */
+.accrodion-title h4::after {
+    content: '\f067';
+    /* FontAwesome Plus */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 12px;
+    color: #1e1e1e;
+    /* Dark icon */
+    background-color: #ececec;
+    /* Dark/Grey Circle Background - or plain */
+    /* If circle requested: */
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+}
+
+/* Active State Icon (Minus) */
+.accrodion.active .accrodion-title h4::after {
+    content: '\f068';
+    /* FontAwesome Minus */
+    background-color: #44a05b;
+    /* Green Circle */
+    color: #ffffff;
+    /* White Icon */
+}
+
+/* Hide default pseudo-elements if any exist from alefox.css */
+.service-details__accordion .accrodion-title__icon,
+.accrodion-title__number {
+    display: none !important;
+}
+
+.accrodion-content {
+    display: none;
+    /* Hidden by default */
+}
+
+.accrodion.active .accrodion-content {
+    display: block;
+    padding-top: 15px;
+    border-top: 1px solid #f0f0f0;
+    /* Optional separator inside */
+    margin-top: 15px;
+}
+
+.accrodion.active .accrodion-content p {
+    margin: 0;
+    line-height: 1.8;
+}
+
+/* Animation helpers */
+/* slide-up usually provided by wow.js + animate.css e.g. "wow fadeInUp" */
+
+/* Product Slider Hover Effects */
+.product-card-grey {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    height: 100%;
+}
+
+.product-card-grey:hover {
+    transform: translateY(-5px);
+}
+
+.product-card-img-box {
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.product-card-img-box img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    /* Ensure aspect ratio is preserved */
+    object-fit: contain;
+    transition: transform 0.5s ease;
+}
+
+.product-card-grey:hover .product-card-img-box img {
+    transform: scale(1.05);
+    /* Slight zoom still nice */
+}
+
+.product-card-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1e1e1e;
+    margin-bottom: 10px;
+}
+
+.product-card-desc {
+    font-size: 15px;
+    color: #636363;
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* View All Products Link */
+.view-all-link {
+    font-weight: 700;
+    text-decoration: underline;
+    color: #5d6372;
+    /* Dark Grey usually used in this theme */
+    transition: all 0.3s ease;
+    font-size: 16px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.view-all-link:hover {
+    color: var(--alefox-base);
+    /* Navy Blue */
+    text-decoration-thickness: 2px;
+}
+
+/* DARK HERO SLIDER STYLES - SLIDER FIX (BOXIER & ROBUST) */
+/* --- 1. DEFAULT STATE (HIDDEN/OFF-SCREEN ITEMS) --- */
+.product-card-dark {
+    background-color: #122033;
+    border-radius: 30px !important;
+    /* Ensure base is rounded */
+    padding: 30px 20px;
+    /* Less side padding to gain width */
+    text-align: center;
+    transition: all 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
+    transform: scale(0.9);
+    /* Default small size */
+    opacity: 0.5;
+    min-height: 400px;
+    /* Force consistent height */
+    box-shadow: none;
+    overflow: hidden !important;
+    /* Clip content to the rounded shape */
+}
+
+/* --- 2. HERO STATE (The 1st Visible Item) --- */
+/* Target strictly the first active item */
+.owl-item.active .product-card-dark {
+    transform: scale(1.1) !important;
+    /* BIGGER (Hero) */
+    opacity: 1 !important;
+    z-index: 10;
+    /* NEW LIGHTER SHADOW */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15) !important;
+    border-radius: 30px !important;
+    /* FORCE rounded corners on the big card */
+    border: none !important;
+    /* Remove any square borders */
+    background-color: #122033 !important;
+}
+
+/* EXPAND THE STAGE TO PREVENT CLIPPING */
+.product-carousel .owl-stage-outer {
+    /* Top | Right | Bottom | Left */
+    padding: 40px 20px 80px 40px !important;
+    /* 80px Bottom -> Rooms for the big Drop Shadow */
+    /* 40px Left -> Room for the "Hero" card to expand left */
+
+    margin: -40px -20px -80px -40px;
+    /* pull layout back so it doesn't shift the page */
+    overflow: visible !important;
+    /* Allow shadows to breathe */
+}
+
+/* FIX LEFT CLIP: Give the hero card room to breathe */
+.product-carousel {
+    padding-left: 25px !important;
+    /* Ensure right side doesn't break layout */
+    width: 100% !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+}
+
+/* --- 3. SECONDARY STATE (The 2nd & 3rd Visible Items) --- */
+/* Target ANY active item that comes AFTER the first active item */
+.owl-item.active~.owl-item.active .product-card-dark {
+    transform: scale(0.9) !important;
+    /* SMALLER (Secondary) */
+    opacity: 0.6 !important;
+    /* Dimmed */
+    z-index: 5;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+/* IMAGE FIX */
+.product-card-dark .card-img-top {
+    width: 100% !important;
+    height: 160px !important;
+    /* Reduced height */
+    background: transparent !important;
+    /* Transparent background */
+    border-radius: 10px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-bottom: 20px !important;
+}
+
+.product-card-dark .card-img-top img {
+    max-height: 100% !important;
+    max-width: 100% !important;
+    object-fit: contain !important;
+    border-radius: 0 !important;
+    transform: none !important;
+}
+
+/* TEXT STYLING */
+.product-card-dark h4 {
+    color: #ffffff !important;
+    /* White Text */
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.product-card-dark p {
+    color: #f1f1f1 !important;
+    /* Light Grey Text */
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* 5. Cylinder & Accessories Page Styles */
+
+/* Cylinder Card (White, Shadow, Safety Accent) */
+.cylinder-card {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s ease;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.cylinder-card:hover {
+    border-bottom-color: #ff4d4d;
+    /* Safety Red/Orange */
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+.cylinder-card h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #1e1e1e;
+}
+
+.cylinder-size {
+    display: inline-block;
+    background-color: #f6f4ec;
+    color: #44a05b;
+    /* Brand Green */
+    font-weight: 700;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.cylinder-card p {
+    color: #636363;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Safety Tips Box */
+.safety-tips-box {
+    background-color: #fffae6;
+    /* Light Yellow/Orange tint */
+    border-left: 5px solid #ffcc00;
+    /* Safety Yellow */
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.safety-tips-icon {
+    font-size: 40px;
+    color: #ffcc00;
+}
+
+.safety-tips-content h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1e1e1e;
+    margin-bottom: 10px;
+}
+
+.safety-tips-content p {
+    margin: 0;
+    color: #5d6372;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.product-carousel .owl-item .product-card-grey {
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* 6. MEGA MENU STYLES (3-Column) */
+/* MEGA MENU CONTAINER */
+.mega-menu-3-col {
+    min-width: 750px;
+    /* Make it wide enough for 3 columns */
+    padding: 30px;
+    display: flex;
+    /* Use Flexbox for side-by-side columns */
+    flex-wrap: wrap;
+    left: -200px;
+    /* Center it slightly relative to the parent link if needed */
+}
+
+/* COLUMNS */
+.mega-col {
+    width: 33.33%;
+    /* 3 Columns */
+    padding: 0 20px;
+    border-right: 1px solid #eee;
+    /* Divider line */
+}
+
+.mega-col:last-child {
+    border-right: none;
+    /* No divider on the last column */
+}
+
+/* HEADINGS */
+.mega-title {
+    font-weight: 700;
+    color: #1f1f25;
+    /* Dark Text */
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+/* LINKS */
+.mega-sub-list li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.mega-sub-list li a {
+    color: #666;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+
+.mega-sub-list li a:hover {
+    color: #F89D28;
+    /* Flora Brand Color (or Green) */
+    padding-left: 5px;
+    /* Subtle movement on hover */
+}
+
+/* RESPONSIVE FIX */
+@media (max-width: 991px) {
+    .mega-menu-3-col {
+        min-width: 100%;
+        display: block;
+        /* Stack on mobile */
+        padding: 0;
+    }
+
+    .mega-col {
+        width: 100%;
+        border-right: none;
+        margin-bottom: 20px;
+        padding: 0 15px;
+    }
+
+    .mega-title {
+        margin-top: 15px;
+        color: #44a05b;
+        /* Highlight headers on mobile */
+    }
+}
+
+/* Download Brochure Widget */
+.service-details__download {
+    margin-top: 30px;
+    background-color: #002147;
+    /* Navy Blue */
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.service-details__download-icon {
+    font-size: 50px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.service-details__download-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.service-details__download-text {
+    color: #ffffff;
+    font-size: 15px;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.service-details__download-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #ffffff;
+    color: #002147;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.service-details__download-btn:hover {
+    background-color: #1e1e1e;
+    /* Dark fallback */
+    color: #ffffff;
+    transform: translateY(-3px);
+}

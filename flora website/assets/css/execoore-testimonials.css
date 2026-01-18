@@ -1,0 +1,562 @@
+/* Execoore Testimonials Clone Styles - Fixed & Unified & Grouped */
+
+/* -----------------------------------------------------------
+   1. UNIFIED SECTION STRUCTURE (Fix double-section issue)
+----------------------------------------------------------- */
+
+/* Ensure the section acts as the ONLY container for background/height */
+/* Ensure the section acts as the ONLY container for background/height */
+/* Ensure the section acts as the ONLY container for background/height */
+/* Ensure the section acts as the ONLY container for background/height */
+.testimonials-one {
+    /* 1. Set the background image with a dark blue overlay */
+    background: linear-gradient(
+        rgba(2, 27, 42, 0.85), /* Dark blue transparency (85%) */
+        rgba(2, 27, 42, 0.85)
+    ), 
+    url('../images/backgrounds/testimonial-bg.jpg.jpg') !important; /* Replace with your image path */
+
+    /* 2. Position settings */
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important; /* Optional: Makes it parallax */
+    
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 70px 0 20px 0 !important;
+    /* Final Compact Vertical Padding (Bottom Removed) */
+    background-color: #021b2a !important;
+    /* Light Grey/Blue BG */
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    overflow: visible !important;
+    /* CRITICAL: Allow content to hang out */
+    z-index: 1;
+}
+
+/* Reset container to allow full height content */
+.testimonials-one .container {
+    position: relative;
+    height: auto !important;
+    min-height: 0 !important;
+    overflow: visible !important;
+    z-index: 2;
+}
+
+
+
+/* -----------------------------------------------------------
+   2. ELIMINATE CLIPPING (Slider & Wrappers)
+----------------------------------------------------------- */
+
+/* Carousel Wrapper */
+
+
+/* Owl Stage Outer */
+.testimonials-one .owl-stage-outer {
+    overflow: hidden !important;
+    height: auto !important;
+    padding-bottom: 50px;
+    /* Extra breathing room for shadows/pointers */
+    margin-bottom: -50px;
+    /* Pull back layout flow */
+}
+
+/* Owl Stage */
+.testimonials-one .owl-stage {
+    display: flex;
+    align-items: flex-start;
+    /* Do NOT stretch, let content define height */
+    overflow: visible !important;
+}
+
+/* Owl Item */
+.testimonials-one .owl-item {
+    float: none !important;
+    /* Flexbox handles it */
+    height: auto !important;
+    min-height: 0 !important;
+    overflow: visible !important;
+}
+
+/* -----------------------------------------------------------
+   NEW: GROUPED SLIDE STYLES (3 Cards structure)
+----------------------------------------------------------- */
+
+/* --- HARD FIX: Prevent card touching inside Owl --- */
+
+.testimonial-group-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: stretch;
+}
+
+
+/* Neutralize Owl flex interference */
+.testimonial-single-col {
+    width: 100%;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Mobile Stack */
+@media (max-width: 991px) {
+    .testimonial-group-row {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .testimonial-group-row {
+        grid-template-columns: 1fr;
+        gap: 40px !important;
+    }
+}
+
+
+
+
+
+/* -----------------------------------------------------------
+   3. VISUAL STYLING (Headers & Spacing)
+----------------------------------------------------------- */
+
+/* Section Title spacing */
+.testimonials-one .sec-title {
+    text-align: left !important;
+    width: 100% !important;
+    max-width: 1200px !important; /* Matches carousel width */
+    margin: 0 auto 5px auto !important; /* Centers the block, but text aligns left */
+    padding-left: 5px !important; /* Aligns with the first card's edge */
+    position: relative;
+    z-index: 4;
+}
+/* Align the subtitle too */
+.testimonials-one .sec-title__tagline {
+    display: inline-block;
+}
+
+.testimonials-one .sec-title__tagline {
+    color: #51ff00 !important;
+    /* Teal subtitle */
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    margin-bottom: 12px;
+    display: block;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.testimonials-one .sec-title__title {
+    color: #ffffff !important;
+    /* White Header */
+    font-size: 42px;
+    /* Prominent heading */
+    margin: 0;
+    line-height: 1.2;
+}
+
+/* -----------------------------------------------------------
+   4. TESTIMONIAL CARDS (Compact & Standardized)
+----------------------------------------------------------- */
+
+.testimonial-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 6px;
+    position: relative;
+    margin-bottom: 20px;
+    /* Space for arrow and client info (Reduced) */
+    box-shadow: 0 15px 40px rgba(246, 255, 118, 0.05);
+    /* Subtle Shadow */
+    transition: transform 0.3s ease;
+    width: 100%;
+    /* Ensure equal height look via flex context in .item */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 160px;
+}
+
+.testimonial-card p {
+    color: #666666;
+    font-size: 16px;
+    line-height: 28px;
+    font-style: italic;
+    margin: 0;
+    text-align: center;
+    /* Centered text */
+}
+
+/* Arrow - Bottom Left */
+.card-arrow {
+    position: absolute;
+    bottom: -14px;
+    left: 40px;
+    /* Aligned to left start */
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 15px 0 15px;
+    border-color: #ffffff transparent transparent transparent;
+    z-index: 2;
+}
+
+/* -----------------------------------------------------------
+   5. CLIENT INFO (Hanging Below Card)
+----------------------------------------------------------- */
+
+.client-info-wrapper {
+    position: relative;
+    /* Normal flow */
+    display: flex;
+    flex-direction: row;
+    /* Layout: Avatar Content */
+    align-items: center;
+    text-align: left;
+    margin-top: 10px !important;
+    padding-left: 10px;
+    /* Align with arrow somewhat */
+    z-index: 5;
+    gap: 15px;
+}
+
+.client-info-wrapper .client-img img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 0;
+    border: none;
+    background-color: #fff;
+    display: inline-block;
+}
+
+.client-info-wrapper .client-details {
+    text-align: left;
+}
+
+.client-info-wrapper .client-details .client-name {
+    color: #ffffff !important;
+    /* White */
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 2px;
+    display: block;
+}
+
+.client-info-wrapper .client-details .client-company {
+    color: #c8c515 !important;
+    /* Teal */
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    display: block;
+    margin-bottom: 5px;
+    /* Space for stars */
+}
+
+/* Star Rating Styling */
+.client-info-wrapper .client-stars {
+    display: flex;
+    gap: 4px;
+    color: #FFD700;
+    /* Gold */
+    font-size: 10px;
+}
+
+/* -----------------------------------------------------------
+   6. PAGINATION DOTS (Visibly Inside Container)
+----------------------------------------------------------- */
+
+
+
+/* Container: Bottom Center - HIGH SPECIFICITY */
+.testimonials-one .owl-dots,
+.testimonials-one.alefox-owl__carousel .owl-dots {
+    position: absolute !important;
+    bottom: auto !important;
+    
+    /* CHANGE THIS LINE */
+    top: 50px !important; 
+    /* Negative value pulls it UP to align with the header */
+
+    right: 10% !important;
+    left: auto !important;
+    transform: none !important;
+    width: auto !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Spacer removal for dots - HIGH SPECIFICITY */
+.testimonials-one .owl-dots .owl-dot,
+.testimonials-one.alefox-owl__carousel .owl-dots .owl-dot {
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 5px !important;
+    /* Spacing between dots */
+}
+
+/* Inactive Dot: Hollow Ring - HIGH SPECIFICITY */
+.testimonials-one .owl-dots .owl-dot span,
+.testimonials-one.alefox-owl__carousel .owl-dots .owl-dot span {
+    display: block !important;
+    background: transparent !important;
+    border: 2px solid #ffffff !important;
+    /* White Border */
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50% !important;
+    margin: 0 !important;
+    transition: all 0.3s ease !important;
+}
+
+/* Active Dot: Solid Pill - HIGH SPECIFICITY */
+.testimonials-one .owl-dots .owl-dot.active span,
+.testimonials-one.alefox-owl__carousel .owl-dots .owl-dot.active span {
+    background: #ffffff !important;
+    /* White Fill */
+    width: 35px !important;
+    height: 12px !important;
+    border-radius: 10px !important;
+    border: none !important;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 991px) {
+    .testimonials-one {
+        padding: 80px 0 100px 0 !important;
+    }
+
+    .custom-test-nav .owl-dots {
+        bottom: -40px;
+        /* Adjusted storage for mobile */
+    }
+}
+
+/* --- NUCLEAR FIX: UNLOCK CONTAINER WIDTH --- */
+
+/* --- CAROUSEL WRAPPER CENTERING FIX (User Request) --- */
+
+/* 1. Main Section: Ensure alignment context */
+.testimonials-one {
+    text-align: center;
+}
+
+.testimonials-one .testimonials-container-fluid {
+    padding: 0 !important;
+    width: 100%;
+    margin: 0;
+    display: block;
+}
+
+/* 2. Target the Carousel Wrapper ITSELF (This was stuck left) */
+.testimonials-one__carousel {
+    width: 100% !important;
+    max-width: 1200px !important;
+    /* Match content width */
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    /* Force to Center */
+}
+
+/* 3. Target the Owl Stage Outer (Prevent clipping/misalignment) */
+.testimonials-one .owl-stage-outer {
+    overflow: visible !important;
+    margin: 0 auto !important;
+}
+
+/* 4. Target the Owl Track */
+.testimonials-one .owl-stage {
+    display: flex !important;
+    justify-content: center !important;
+    margin: 0 auto !important;
+}
+
+/* 5. Target the Slide Wrapper */
+.testimonials-one .owl-item {
+    float: none !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+/* 6. Target the Content (The Grid) */
+.testimonial-group-row {
+    width: 100% !important;
+    /* max-width is handled by the wrapper now */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: stretch;
+}
+
+/* Reset .item to be a transparent wrapper */
+.testimonials-one .item {
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: block !important;
+}
+
+
+
+
+/* =========================================
+   FINAL FIX: DOTS VISIBLE + CARDS FIXED
+   ========================================= */
+
+/* 1. Reset overflow to HIDDEN so cards don't bleed out */
+.testimonials-one__carousel,
+.testimonials-one .owl-stage-outer {
+    overflow: hidden !important; 
+    
+    /* THE MAGIC TRICK: 
+       Expand the invisible box UPWARDS by 120px.
+       This creates "safe space" for the dots to exist inside the box.
+    */
+    padding-top: 120px !important;
+    margin-top: -120px !important;
+}
+
+/* 2. Position the dots inside this new "safe space" */
+.testimonials-one .owl-dots,
+.testimonials-one.alefox-owl__carousel .owl-dots {
+    position: absolute !important;
+    bottom: auto !important;
+    left: auto !important;
+    right: 15px !important;
+    
+    /* New Top Position:
+       Since the box now starts 120px higher, 
+       we set 'top' to a positive number (~30px) to place them correctly.
+    */
+    top: 35px !important; 
+    
+    z-index: 100 !important;
+    display: flex !important;
+    gap: 5px !important;
+}
+
+
+/* =========================================
+   SCROLL ANIMATION STYLES
+   ========================================= */
+
+/* 1. The starting state (Hidden & Moved Left) */
+.anim-left {
+    opacity: 0;
+    transform: translateX(-100px); /* Start 100px to the left */
+    transition: all 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94); /* Smooth easing */
+    will-change: transform, opacity;
+}
+
+/* 2. The active state (Visible & In Place) */
+.anim-left.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Optional: Add a slight delay for the second text so they stagger */
+.anim-delay-200 {
+    transition-delay: 0.2s;
+}
+
+/* =========================================
+   FIX CLICKABLE DOTS & Z-INDEX
+   ========================================= */
+
+/* Ensure the dots container is physically above the slider mask */
+.testimonials-one .owl-dots,
+.testimonials-one.alefox-owl__carousel .owl-dots {
+    z-index: 99999 !important; /* Force to top */
+    pointer-events: auto !important; /* Force mouse interaction */
+}
+
+/* Ensure the individual dots are clickable buttons */
+.testimonials-one .owl-dots .owl-dot,
+.testimonials-one.alefox-owl__carousel .owl-dots .owl-dot {
+    pointer-events: auto !important;
+    cursor: pointer !important;
+    z-index: 100000 !important;
+}
+/* =======================================================
+   FINAL CONSOLIDATED FIX (Background + Clicks + Layout)
+   ======================================================= */
+
+/* 1. Force Background Image (Overrides the 'none' rule) */
+.testimonials-one {
+    background-image: linear-gradient(
+        rgba(2, 27, 42, 0.85), 
+        rgba(2, 27, 42, 0.85)
+    ), 
+    url('../images/backgrounds/testimonial-bg.jpg.jpg') !important; 
+    
+    background-size: cover !important;
+    background-position: center center !important;
+    background-attachment: fixed !important;
+}
+
+/* 2. Fix The "Invisible Wall" (The Slider Container) */
+/* We turn OFF mouse clicks on the container so they pass through */
+.testimonials-one__carousel,
+.testimonials-one .owl-stage-outer {
+    overflow: hidden !important;
+    
+    /* Create the "Attic" space for dots */
+    padding-top: 120px !important;
+    margin-top: -120px !important;
+    
+    /* CRITICAL: Let clicks pass through the invisible padding */
+    pointer-events: none !important;
+    z-index: 5 !important;
+}
+
+/* 3. Make Dots Clickable (The Real Fix) */
+/* We turn mouse clicks BACK ON for the dots */
+.testimonials-one .owl-dots,
+.testimonials-one.alefox-owl__carousel .owl-dots {
+    position: absolute !important;
+    top: 35px !important; /* Sit inside the attic space */
+    right: 15px !important;
+    bottom: auto !important;
+    left: auto !important;
+    
+    /* Force interaction */
+    pointer-events: auto !important;
+    cursor: default;
+    z-index: 99999 !important; /* Sit on top of everything */
+}
+
+/* 4. Make Cards Selectable */
+.testimonial-card,
+.client-info-wrapper {
+    pointer-events: auto !important;
+}
+
+/* 5. Scroll Animations */
+.anim-left {
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: all 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    will-change: transform, opacity;
+}
+.anim-left.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+.anim-delay-200 { transition-delay: 0.2s; }

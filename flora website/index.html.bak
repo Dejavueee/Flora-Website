@@ -1,0 +1,2044 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Two || Alefox || HTML Template For Organic Food Farming & Agriculture</title>
+    <!-- favicons Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
+    <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
+    <meta name="description"
+        content="Alefox is a modern HTML Template for agriculture field, farm, farmers, eco solutions and organic food products. Alefox HTML Template perfectly fit for all the green initiatives of the farming communities websites and businesses." />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/vendors/bootstrap-select/bootstrap-select.min.css" />
+    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
+    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="assets/vendors/icofont/icofont.min.css" />
+    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
+    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
+    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
+    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css" />
+    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css" />
+    <link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.css" />
+    <link rel="stylesheet" href="assets/vendors/slick/slick.css">
+    <link rel="stylesheet" href="assets/vendors/alefox-icons/style.css" />
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css" />
+
+    <!-- template styles -->
+    <link rel="stylesheet" href="assets/css/alefox.css" />
+</head>
+
+<body class="custom-cursor">
+
+    <div class="custom-cursor__cursor"></div>
+    <div class="custom-cursor__cursor-two"></div>
+
+    <div class="preloader">
+        <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
+    </div>
+    <!-- /.preloader -->
+    <div class="page-wrapper">
+        <header class="main-header main-header--three sticky-header sticky-header--normal">
+            <div class="main-header__inner">
+                <div class="main-header__logo">
+                    <a href="index.html">
+                        <img src="assets/images/logo-dark.png" alt="Alefox HTML" width="147">
+                    </a>
+                </div><!-- /.main-header__logo -->
+                <nav class="main-header__nav main-menu">
+                    <ul class="main-menu__list">
+
+
+                        <li class="active">
+                            <a href="index.html">Home</a>
+
+                        </li>
+
+
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">Pages</a>
+                            <ul>
+                                <li>
+                                    <a href="project.html">Our Project</a>
+                                    <ul>
+                                        <li><a href="project.html">Project Page</a></li>
+                                        <li><a href="project-carousel.html">Project Carousel</a></li>
+                                        <li><a href="project-details.html">Project Details</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="team.html">Our Team</a>
+                                    <ul>
+                                        <li><a href="team.html">Team Page</a></li>
+                                        <li><a href="team-carousel.html">Team Carousel</a></li>
+                                        <li><a href="team-details.html">Team Details</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="reviews.html">Testimonials</a></li>
+                                <li><a href="reviews-carousel.html">Testimonials Carousel</a></li>
+                                <li><a href="packages.html">Pricing</a></li>
+                                <li><a href="packages-carousel.html">Pricing Carousel</a></li>
+                                <li>
+                                    <a href="gallery.html">Gallery</a>
+                                    <ul>
+                                        <li><a href="gallery.html">Gallery Masonry</a></li>
+                                        <li><a href="gallery-filter.html">Gallery Filter</a></li>
+                                        <li><a href="gallery-grid.html">Gallery Grid</a></li>
+                                        <li><a href="gallery-carousel.html">Gallery Carousel</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="faq.html">Faq</a></li>
+                                <li><a href="login.html">Login</a></li>
+                                <li><a href="register.html">Register</a></li>
+                                <li><a href="404.html">404 Error</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">Services</a>
+                            <ul>
+                                <li><a href="services.html">Services 01</a></li>
+                                <li><a href="services-02.html">Services 02</a></li>
+                                <li><a href="services-carousel.html">Services Carousel</a></li>
+                                <li><a href="service-d-fresh.html">Always Fresh</a></li>
+                                <li><a href="service-d-farming.html">Organic Solutions</a></li>
+                                <li><a href="service-d-organic.html">Organic Product</a></li>
+                                <li><a href="service-d-agriculture.html">Agriculture Staff</a></li>
+                                <li><a href="service-d-growth.html">Growth Providing</a></li>
+                                <li><a href="service-d-plants.html">Decorative Plants</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="#">Shop</a>
+                            <ul class="sub-menu">
+                                <li class="dropdown">
+                                    <a href="#">Products</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="products.html">No sidebar</a></li>
+                                        <li><a href="products-left.html">Left sidebar</a></li>
+                                        <li><a href="products-right.html">Right sidebar</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="products-carousel.html">Products carousel</a></li>
+                                <li><a href="product-details.html">Product details</a></li>
+                                <li><a href="cart.html">Cart</a></li>
+                                <li><a href="wishlist.html">Wishlist</a></li>
+                                <li><a href="checkout.html">Checkout</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">News</a>
+                            <ul class="sub-menu">
+                                <li class="dropdown">
+                                    <a href="#">News grid</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="blog-grid.html">No sidebar</a></li>
+                                        <li><a href="blog-grid-left.html">Left sidebar</a></li>
+                                        <li><a href="blog-grid-right.html">Right sidebar</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">News list</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="blog-list.html">No sidebar</a></li>
+                                        <li><a href="blog-list-left.html">Left sidebar</a></li>
+                                        <li><a href="blog-list-right.html">Right sidebar</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="blog-carousel.html">News carousel</a></li>
+                                <li class="dropdown">
+                                    <a href="#">News details</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="blog-details.html">No sidebar</a></li>
+                                        <li><a href="blog-details-left.html">Left sidebar</a></li>
+                                        <li><a href="blog-details-right.html">Right sidebar</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav><!-- /.main-header__nav -->
+                <div class="main-header__right">
+                    <div class="mobile-nav__btn mobile-nav__toggler">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div><!-- /.mobile-nav__toggler -->
+                    <a href="#" class="search-toggler main-header__search">
+                        <i class="icon-magnifying-glass" aria-hidden="true"></i>
+                        <span class="sr-only">Search</span>
+                    </a><!-- /.search-toggler -->
+                    <a href="cart.html" class="main-header__cart">
+                        <i class="icon-shopping-cart" aria-hidden="true"></i>
+                        <span class="main-header__cart__count">02</span>
+                        <span class="sr-only">Search</span>
+                    </a><!-- /.search-toggler -->
+                </div><!-- /.main-header__right -->
+            </div><!-- /.main-header__inner -->
+        </header><!-- /.main-header -->
+        <!-- main-slider-start -->
+        <section class="main-slider-two">
+            <div class="main-slider-two__carousel alefox-owl__carousel owl-carousel" data-owl-options='{
+		"loop": true,
+		"animateOut": "fadeOut",
+		"animateIn": "fadeIn",
+		"items": 1,
+		"autoplay": true,
+		"autoplayTimeout": 10000,
+		"smartSpeed": 1000,
+		"nav": false,
+        "navText": ["<span class=\"icon-left-arrow\"></span>","<span class=\"icon-right-arrow\"></span>"],
+		"dots": true,
+		"dotData": true,
+		"dotsData": true,
+		"margin": 0
+	    }'>
+                <div class="item" data-dot="<button>01</button>">
+                    <div class="main-slider-two__item">
+                        <div class="main-slider-two__bg">
+                            <video class="hero-slider-video" muted playsinline
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                                <source src="assets/images/backgrounds/0102.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="container">
+                            <div class="main-slider-two__content">
+                                <h5 class="main-slider-two__sub-title">100% Quality Services</h5>
+                                <!-- slider-sub-title -->
+                                <h2 class="main-slider-two__title">
+                                    Flora – Powering Your Home<br> with <span>Gas & Solar</span>
+                                </h2><!-- slider-title -->
+                                <p class="main-slider-two__text">
+                                    One company. Two divisions.<br>
+                                    Complete energy convenience — gas + solar under one brand.
+                                </p><!-- slider-text -->
+                                <div class="main-slider-two__btn">
+                                    <a href="products.html" class="alefox-btn">
+                                        <span class="alefox-btn__item"></span>
+                                        <span class="alefox-btn__item"></span>
+                                        <span class="alefox-btn__item"></span>
+                                        <span class="alefox-btn__item"></span>
+                                        Our Stores
+                                    </a><!-- slider-btn -->
+                                    <a href="https://www.youtube.com/watch?v=h9MbznbxlLc" class="video-popup">
+                                        <i class="icon-play-button"></i>
+                                        <i class="ripple"></i>
+                                    </a>
+                                </div>
+                                <div class="main-slider-two__shape-one"><img
+                                        src="assets/images/shapes/satisfaction-badge.png"
+                                        alt="100% Satisfaction Guarantee" class="blue-badge-filter">
+                                </div>
+                                <!-- slider-shape-one -->
+                            </div>
+                        </div>
+                        <div class="main-slider-two__shape-two"><img src="assets/images/shapes/slider-2-shape-2.png"
+                                alt="alefox"></div><!-- slider-shape-two -->
+                    </div>
+                </div>
+                <div class="item" data-dot="<button>02</button>">
+                    <div class="main-slider-two__item">
+                        <div class="main-slider-two__bg">
+                            <img src="assets/images/backgrounds/slider-2-2.png" alt="alefox" />
+                            <img src="assets/images/backgrounds/slider-2-2.png" alt="alefox" />
+                        </div>
+                        <div class="container">
+                            <div class="main-slider-two__content">
+                                <h5 class="main-slider-two__sub-title">100% Quality Services</h5>
+                                <!-- slider-sub-title -->
+                                <h2 class="main-slider-two__title">
+                                    Power Your Life with Clean,<br> Reliable <span>Solar Energy</span>
+                                </h2><!-- slider-title -->
+                                <p class="main-slider-two__text">
+                                    Home + commercial solar systems
+                                </p><!-- slider-text -->
+                                <div class="main-slider-two__btn">
+                                    <a href="products.html" class="alefox-btn">
+                                        <span class="alefox-btn__item"></span>
+                                        <span class="alefox-btn__item"></span>
+                                        <span class="alefox-btn__item"></span>
+                                        <span class="alefox-btn__item"></span>
+                                        Our Stores
+                                    </a><!-- slider-btn -->
+                                    <a href="https://www.youtube.com/watch?v=h9MbznbxlLc" class="video-popup">
+                                        <i class="icon-play-button"></i>
+                                        <i class="ripple"></i>
+                                    </a>
+                                </div>
+                                <div class="main-slider-two__shape-one"><img
+                                        src="assets/images/shapes/satisfaction-badge.png"
+                                        alt="100% Satisfaction Guarantee" class="blue-badge-filter">
+                                </div>
+                                <!-- slider-shape-one -->
+                            </div>
+                        </div>
+                        <div class="main-slider-two__shape-two"><img src="assets/images/shapes/slider-2-shape-2.png"
+                                alt="alefox"></div><!-- slider-shape-two -->
+                    </div>
+                </div>
+                <div class="item" data-dot="<button>03</button>">
+                    <div class="main-slider-two__item">
+                        <div class="main-slider-two__bg">
+                            <img src="assets/images/backgrounds/slider-2-3.png" alt="alefox" />
+                            <img src="assets/images/backgrounds/slider-2-3.png" alt="alefox" />
+                        </div>
+                        <div class="container">
+                            <div class="main-slider-two__content">
+                                <h5 class="main-slider-two__sub-title">100% Quality Services</h5>
+                                <!-- slider-sub-title -->
+                                <h2 class="main-slider-two__title">
+                                    Safe, Reliable LPG Gas<br> for <span>Home & Business</span>
+                                </h2><!-- slider-title -->
+                                <p class="main-slider-two__text">
+                                    Bulk & retail LPG gas filling<br>
+                                    Fast delivery across the city
+                                </p><!-- slider-text -->
+                                <div class="main-slider-two__btn">
+                                    <a href="products.html" class="alefox-btn">
+                                        <span class="alefox-btn__item"></span>
+                                        <span class="alefox-btn__item"></span>
+                                        <span class="alefox-btn__item"></span>
+                                        <span class="alefox-btn__item"></span>
+                                        Our Stores
+                                    </a><!-- slider-btn -->
+                                    <a href="https://www.youtube.com/watch?v=h9MbznbxlLc" class="video-popup">
+                                        <i class="icon-play-button"></i>
+                                        <i class="ripple"></i>
+                                    </a>
+                                </div>
+                                <div class="main-slider-two__shape-one"><img
+                                        src="assets/images/shapes/satisfaction-badge.png"
+                                        alt="100% Satisfaction Guarantee" class="blue-badge-filter">
+                                </div>
+                                <!-- slider-shape-one -->
+                            </div>
+                        </div>
+                        <div class="main-slider-two__shape-two"><img src="assets/images/shapes/slider-2-shape-2.png"
+                                alt="alefox"></div><!-- slider-shape-two -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- main-slider-end -->
+
+        <section class="feature-one">
+            <div class="container">
+                <ul class="feature-one__list">
+                    <li class="feature-one__item wow fadeInUp" data-wow-delay="00ms">
+                        <div class="feature-one__item__image"><img src="assets/images/shapes/icon-solar.png"
+                                alt="Solar Solutions" style="width: 80px; height: 80px;"></div>
+                        <div class="feature-one__item__content">
+                            <h3 class="feature-one__item__title">Solar Solutions</h3>
+                            <p class="feature-one__item__text">Efficient solar panel installations for home & business.
+                            </p>
+                        </div>
+                    </li><!-- item -->
+                    <li class="feature-one__item wow fadeInUp" data-wow-delay="100ms">
+                        <div class="feature-one__item__image"><img src="assets/images/shapes/icon-gas.png"
+                                alt="LPG Gas Supply" style="width: 80px; height: 80px;"></div>
+                        <div class="feature-one__item__content">
+                            <h3 class="feature-one__item__title">LPG Supply</h3>
+                            <p class="feature-one__item__text">Reliable LPG gas delivery for cooking & heating.</p>
+                        </div>
+                    </li><!-- item -->
+                    <li class="feature-one__item wow fadeInUp" data-wow-delay="200ms">
+                        <div class="feature-one__item__image">
+                            <i class="fas fa-boxes" style="font-size: 65px; color: #002147;"></i>
+                        </div>
+                        <div class="feature-one__item__content">
+                            <h3 class="feature-one__item__title">Solar & Gas Hardware</h3>
+                            <p class="feature-one__item__text">Your local supplier for new gas cylinders, solar mounting
+                                kits, and cabling.</p>
+                        </div>
+                    </li><!-- item -->
+                </ul>
+            </div>
+        </section>
+
+        <section class="about-two">
+            <div class="about-two__shape" style="background-image: url(assets/images/resources/about-2-shape-1.png);">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="about-two__image wow fadeInLeft" data-wow-delay="200ms">
+                            <img src="assets/images/resources/about-2-1.png" alt="alefox">
+                            <div class="about-two__image__two">
+                                <img src="assets/images/resources/about-2-2.png" alt="alefox">
+                            </div>
+                            <div class="about-two__image__shape">
+                                <img src="assets/images/resources/about-2-shape-2.png" alt="alefox">
+                            </div>
+                        </div><!-- /.about-two__image -->
+                    </div><!-- /.col-lg-6 -->
+                    <div class="col-xl-6 wow fadeInRight" data-wow-delay="300ms">
+                        <div class="about-two__content">
+                            <div class="sec-title text-left">
+
+                                <h6 class="sec-title__tagline bw-split-in-right"><span
+                                        class="sec-title__tagline__left-leaf"
+                                        style="background-image: url(assets/images/shapes/leaf.png);"></span>About
+                                    Flora<span class="sec-title__tagline__right-leaf"
+                                        style="background-image: url(assets/images/shapes/leaf.png);"></span></h6>
+                                <!-- /.sec-title__tagline -->
+
+                                <h3 class="sec-title__title bw-split-in-left">Flora Energy Solutions</h3>
+                                <!-- /.sec-title__title -->
+                            </div><!-- /.sec-title -->
+                            <p class="about-two__content__text">
+                                Flora provides integrated gas and solar solutions built on safety, innovation, and
+                                reliability. Our mission is to power homes and businesses with energy systems that are
+                                affordable, efficient, and professionally supported.
+                            </p>
+                            <ul class="about-two__fact">
+                                <li>
+                                    <div class="about-two__fact__icon"><span class="fas fa-solar-panel"></span></div>
+                                    <div class="about-two__fact__content">
+                                        <h5 class="about-two__fact__number count-box"><span class="count-text"
+                                                data-stop="500" data-speed="1500"></span>+</h5>
+                                        <p class="about-two__fact__text">Solar Projects</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="about-two__fact__icon"><span class="fas fa-fire"></span></div>
+                                    <div class="about-two__fact__content">
+                                        <h5 class="about-two__fact__number count-box"><span class="count-text"
+                                                data-stop="15" data-speed="1500"></span>K+</h5>
+                                        <p class="about-two__fact__text">Gas Refills</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="about-two__fact__icon"><span class="fas fa-shield-alt"></span></div>
+                                    <div class="about-two__fact__content">
+                                        <h5 class="about-two__fact__number count-box"><span class="count-text"
+                                                data-stop="100" data-speed="1500"></span>%</h5>
+                                        <p class="about-two__fact__text">Safety Record</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <ul class="about-two__content__list">
+                                        <li><span class="icon-check-mark"></span>Certified gas installations ensuring
+                                            complete home safety and compliance.</li>
+                                        <li><span class="icon-check-mark"></span>High-efficiency solar systems designed
+                                            to drastically reduce your energy bills.</li>
+                                    </ul>
+                                    <a href="about.html" class="alefox-btn">
+                                        <span class="alefox-btn__item"></span>
+                                        <span class="alefox-btn__item"></span>
+                                        <span class="alefox-btn__item"></span>
+                                        <span class="alefox-btn__item"></span>
+                                        About More
+                                    </a>
+                                </div>
+                            </div>
+                        </div><!-- /.why-choose-two__content -->
+                    </div><!-- /.col-lg-6 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </section><!-- /.about-two -->
+
+        <section class="service-two">
+            <div class="service-two__shape-one"
+                style="background-image: url(assets/images/resources/service-2-shape-1.png);"></div>
+            <div class="service-two__shape-two"
+                style="background-image: url(assets/images/resources/service-2-shape-2.png);"></div>
+            <div class="service-two__shape-three"
+                style="background-image: url(assets/images/resources/service-2-shape-3.png);"></div>
+            <div class="container">
+                <div class="sec-title text-center">
+
+                    <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__left-leaf"
+                            style="background-image: url(assets/images/shapes/leaf.png);"></span>Our Best Services<span
+                            class="sec-title__tagline__right-leaf"
+                            style="background-image: url(assets/images/shapes/leaf.png);"></span></h6>
+                    <!-- /.sec-title__tagline -->
+
+                    <h3 class="sec-title__title bw-split-in-left">Services This Working</h3><!-- /.sec-title__title -->
+                </div><!-- /.sec-title -->
+                <div class="service-two__carousel alefox-owl__carousel alefox-owl__carousel--with-shadow alefox-owl__carousel--basic-nav owl-carousel owl-theme"
+                    data-owl-options='{
+				"items": 1,
+				"margin": 30,
+				"margin": 30,
+				"loop": true,
+				"slideBy": "page",
+				"smartSpeed": 1000,
+				"nav": false,
+				"navText": ["<span class=\"icofont-bubble-left\"></span>","<span class=\"icofont-bubble-righ\"></span>"],
+				"dots": true,
+				"autoplay": true,
+				"autoplayTimeout": 10000,
+				"responsive": {
+					"0": {
+						"items": 1
+					},
+					"768": {
+						"items": 2
+					},
+					"992": {
+						"items": 3
+					}
+				}
+			}'>
+                    <div class="item">
+                        <div class="service-two__item wow fadeInUp" data-wow-delay="00ms">
+                            <div class="service-two__item__image">
+                                <img src="assets/images/resources/service-1-1.png" alt="Residential Solar">
+                            </div>
+                            <div class="service-two__item__content">
+                                <div class="service-two__item__icon">
+                                    <span class="fas fa-home"></span>
+                                </div><!-- /.service-icon -->
+                                <h3 class="service-two__item__title">
+                                    <a href="#">Residential Solar</a>
+                                </h3><!-- /.service-title -->
+                                <p class="service-two__item__text">
+                                    Complete hybrid and off-grid solar system installations designed to power modern
+                                    homes efficiently.
+                                </p><!-- /.service-text -->
+                                <a href="#" class="service-two__item__link">
+                                    <i class="icofont-arrow-up"></i>
+                                </a>
+                            </div>
+                        </div><!-- /.service-item -->
+                    </div>
+                    <div class="item">
+                        <div class="service-two__item wow fadeInUp" data-wow-delay="100ms">
+                            <div class="service-two__item__image">
+                                <img src="assets/images/resources/service-1-2.png" alt="Commercial Solutions">
+                            </div>
+                            <div class="service-two__item__content">
+                                <div class="service-two__item__icon">
+                                    <span class="fas fa-building"></span>
+                                </div><!-- /.service-icon -->
+                                <h3 class="service-two__item__title">
+                                    <a href="#">Commercial Solutions</a>
+                                </h3><!-- /.service-title -->
+                                <p class="service-two__item__text">
+                                    High-capacity power setups for businesses and offices to reduce operating costs and
+                                    ensure uptime.
+                                </p><!-- /.service-text -->
+                                <a href="#" class="service-two__item__link">
+                                    <i class="icofont-arrow-up"></i>
+                                </a>
+                            </div>
+                        </div><!-- /.service-item -->
+                    </div>
+                    <div class="item">
+                        <div class="service-two__item wow fadeInUp" data-wow-delay="200ms">
+                            <div class="service-two__item__image">
+                                <img src="assets/images/resources/service-1-3.png" alt="Solar Equipment Sales">
+                            </div>
+                            <div class="service-two__item__content">
+                                <div class="service-two__item__icon">
+                                    <span class="fas fa-battery-full"></span>
+                                </div><!-- /.service-icon -->
+                                <h3 class="service-two__item__title">
+                                    <a href="#">Solar Equipment Sales</a>
+                                </h3><!-- /.service-title -->
+                                <p class="service-two__item__text">
+                                    Retail sales of premium inverters, lithium batteries, and panels from top-tier
+                                    global brands.
+                                </p><!-- /.service-text -->
+                                <a href="#" class="service-two__item__link">
+                                    <i class="icofont-arrow-up"></i>
+                                </a>
+                            </div>
+                        </div><!-- /.service-item -->
+                    </div>
+                    <div class="item">
+                        <div class="service-two__item wow fadeInUp" data-wow-delay="00ms">
+                            <div class="service-two__item__image">
+                                <img src="assets/images/resources/service-2-1.png" alt="Rapid Gas Refills">
+                            </div>
+                            <div class="service-two__item__content">
+                                <div class="service-two__item__icon">
+                                    <span class="fas fa-fire"></span>
+                                </div><!-- /.service-icon -->
+                                <h3 class="service-two__item__title">
+                                    <a href="#">Rapid Gas Refills</a>
+                                </h3><!-- /.service-title -->
+                                <p class="service-two__item__text">
+                                    Fast, safe, and accurate LP gas refilling for all cylinder sizes at our retail
+                                    locations.
+                                </p><!-- /.service-text -->
+                                <a href="#" class="service-two__item__link">
+                                    <i class="icofont-arrow-up"></i>
+                                </a>
+                            </div>
+                        </div><!-- /.service-item -->
+                    </div>
+                    <div class="item">
+                        <div class="service-two__item wow fadeInUp" data-wow-delay="100ms">
+                            <div class="service-two__item__image">
+                                <img src="assets/images/resources/service-2-2.png" alt="Bulk Gas Supply">
+                            </div>
+                            <div class="service-two__item__content">
+                                <div class="service-two__item__icon">
+                                    <span class="fas fa-truck-moving"></span>
+                                </div><!-- /.service-icon -->
+                                <h3 class="service-two__item__title">
+                                    <a href="#">Bulk Gas Supply</a>
+                                </h3><!-- /.service-title -->
+                                <p class="service-two__item__text">
+                                    Reliable bulk LPG delivery for restaurants, hotels, and industrial heating
+                                    requirements.
+                                </p><!-- /.service-text -->
+                                <a href="#" class="service-two__item__link">
+                                    <i class="icofont-arrow-up"></i>
+                                </a>
+                            </div>
+                        </div><!-- /.service-item -->
+                    </div>
+                    <div class="item">
+                        <div class="service-two__item wow fadeInUp" data-wow-delay="200ms">
+                            <div class="service-two__item__image">
+                                <img src="assets/images/resources/service-2-3.png" alt="Cylinders & Accessories">
+                            </div>
+                            <div class="service-two__item__content">
+                                <div class="service-two__item__icon">
+                                    <span class="fas fa-shopping-cart"></span>
+                                </div><!-- /.service-icon -->
+                                <h3 class="service-two__item__title">
+                                    <a href="#">Cylinders & Accessories</a>
+                                </h3><!-- /.service-title -->
+                                <p class="service-two__item__text">
+                                    Sales of certified gas tanks, regulators, hose pipes, and gas-safe cooking hardware.
+                                </p><!-- /.service-text -->
+                                <a href="#" class="service-two__item__link">
+                                    <i class="icofont-arrow-up"></i>
+                                </a>
+                            </div>
+                        </div><!-- /.service-item -->
+                    </div>
+                    <div class="item">
+                        <div class="service-two__item wow fadeInUp" data-wow-delay="00ms">
+                            <div class="service-two__item__image">
+                                <img src="assets/images/resources/service-3-1.png" alt="Smart Energy Tech">
+                            </div>
+                            <div class="service-two__item__content">
+                                <div class="service-two__item__icon">
+                                    <span class="fas fa-certificate"></span>
+                                </div><!-- /.service-icon -->
+                                <h3 class="service-two__item__title">
+                                    <a href="#">Certified Gas Installation</a>
+                                </h3><!-- /.service-title -->
+                                <p class="service-two__item__text">
+                                    Professional installation of gas appliances and lines by certified technicians
+                                    ensuring
+                                    complete safety.
+                                </p><!-- /.service-text -->
+                                <a href="#" class="service-two__item__link">
+                                    <i class="icofont-arrow-up"></i>
+                                </a>
+                            </div>
+                        </div><!-- /.service-item -->
+                    </div>
+                    <div class="item">
+                        <div class="service-two__item wow fadeInUp" data-wow-delay="100ms">
+                            <div class="service-two__item__image">
+                                <img src="assets/images/resources/service-3-2.png" alt="Maintenance & Repair">
+                            </div>
+                            <div class="service-two__item__content">
+                                <div class="service-two__item__icon">
+                                    <span class="fas fa-wrench"></span>
+                                </div><!-- /.service-icon -->
+                                <h3 class="service-two__item__title">
+                                    <a href="#">Maintenance & Repair</a>
+                                </h3><!-- /.service-title -->
+                                <p class="service-two__item__text">
+                                    Expert technical support for fixing inverters, servicing gas lines, and general
+                                    system maintenance.
+                                </p><!-- /.service-text -->
+                                <a href="#" class="service-two__item__link">
+                                    <i class="icofont-arrow-up"></i>
+                                </a>
+                            </div>
+                        </div><!-- /.service-item -->
+                    </div>
+                    <div class="item">
+                        <div class="service-two__item wow fadeInUp" data-wow-delay="200ms">
+                            <div class="service-two__item__image">
+                                <img src="assets/images/resources/service-3-3.png" alt="Doorstep Delivery">
+                            </div>
+                            <div class="service-two__item__content">
+                                <div class="service-two__item__icon">
+                                    <span class="fas fa-map-marker-alt"></span>
+                                </div><!-- /.service-icon -->
+                                <h3 class="service-two__item__title">
+                                    <a href="#">Doorstep Delivery</a>
+                                </h3><!-- /.service-title -->
+                                <p class="service-two__item__text">
+                                    Convenient logistics service bringing gas refills and solar equipment directly to
+                                    your location.
+                                </p><!-- /.service-text -->
+                                <a href="#" class="service-two__item__link">
+                                    <i class="icofont-arrow-up"></i>
+                                </a>
+                            </div>
+                        </div><!-- /.service-item -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Service End -->
+
+        <section class="project-one">
+            <div class="container">
+                <div class="sec-title text-center">
+
+                    <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__left-leaf"
+                            style="background-image: url(assets/images/shapes/leaf.png);"></span>Our Projects<span
+                            class="sec-title__tagline__right-leaf"
+                            style="background-image: url(assets/images/shapes/leaf.png);"></span></h6>
+                    <!-- /.sec-title__tagline -->
+
+                    <h3 class="sec-title__title bw-split-in-left">Explore Our Latest Work</h3>
+                    <!-- /.sec-title__title -->
+                </div><!-- /.sec-title -->
+
+                <!-- Custom Tab Navigation -->
+                <ul class="nav nav-pills justify-content-center mb-5" id="projectTabs" role="tablist"
+                    style="gap: 20px;">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active custom-tab-btn" id="solar-tab" data-bs-toggle="pill"
+                            data-bs-target="#solar" type="button" role="tab" aria-controls="solar"
+                            aria-selected="true">Flora Solar & Tech</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link custom-tab-btn" id="gas-tab" data-bs-toggle="pill" data-bs-target="#gas"
+                            type="button" role="tab" aria-controls="gas" aria-selected="false">Flora Gas</button>
+                    </li>
+                </ul>
+
+                <div class="tab-content" id="projectTabsContent">
+                    <!-- Solar Tab Pane -->
+                    <div class="tab-pane fade show active" id="solar" role="tabpanel" aria-labelledby="solar-tab">
+                        <div class="row gutter-y-30">
+                            <div class="col-lg-8 col-md-12 wow fadeInUp" data-wow-delay="00ms">
+                                <div class="project-one__item">
+                                    <img src="assets/images/project/project-1-1.png" alt="Solar Installation">
+                                    <div class="project-one__item__content">
+                                        <p class="project-one__item__cats">Solar & Tech</p>
+                                        <h5 class="project-one__item__title"><a href="project-details.html">Residential
+                                                Hybrid Solar</a></h5>
+                                        <a href="project-details.html" class="project-one__item__rm">
+                                            <i class="icofont-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div><!-- /.item -->
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="50ms">
+                                <div class="project-one__item">
+                                    <img src="assets/images/project/project-1-2.png" alt="Inverter Setup">
+                                    <div class="project-one__item__content">
+                                        <p class="project-one__item__cats">Tech Support</p>
+                                        <h5 class="project-one__item__title"><a href="project-details.html">Inverter
+                                                Maintenance</a></h5>
+                                        <a href="project-details.html" class="project-one__item__rm">
+                                            <i class="icofont-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div><!-- /.item -->
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                                <div class="project-one__item">
+                                    <img src="assets/images/project/project-1-3.png" alt="Commercial Solar">
+                                    <div class="project-one__item__content">
+                                        <p class="project-one__item__cats">Solar Energy</p>
+                                        <h5 class="project-one__item__title"><a href="project-details.html">Commercial
+                                                Backup Sys</a></h5>
+                                        <a href="project-details.html" class="project-one__item__rm">
+                                            <i class="icofont-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div><!-- /.item -->
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="150ms">
+                                <div class="project-one__item">
+                                    <img src="assets/images/project/project-1-4.png" alt="Panel Cleaning">
+                                    <div class="project-one__item__content">
+                                        <p class="project-one__item__cats">Maintenance</p>
+                                        <h5 class="project-one__item__title"><a href="project-details.html">Solar Panel
+                                                Cleaning</a></h5>
+                                        <a href="project-details.html" class="project-one__item__rm">
+                                            <i class="icofont-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div><!-- /.item -->
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                                <div class="project-one__item">
+                                    <img src="assets/images/project/project-1-5.png" alt="Battery Upgrade">
+                                    <div class="project-one__item__content">
+                                        <p class="project-one__item__cats">Tech Upgrade</p>
+                                        <h5 class="project-one__item__title"><a href="project-details.html">Lithium
+                                                Battery Upgrade</a></h5>
+                                        <a href="project-details.html" class="project-one__item__rm">
+                                            <i class="icofont-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div><!-- /.item -->
+                        </div>
+                    </div>
+
+                    <!-- Gas Tab Pane -->
+                    <div class="tab-pane fade" id="gas" role="tabpanel" aria-labelledby="gas-tab">
+                        <div class="row gutter-y-30">
+                            <div class="col-lg-8 col-md-12 wow fadeInUp" data-wow-delay="00ms">
+                                <div class="project-one__item">
+                                    <!-- Placeholder image re-used, would replace with gas specific image later -->
+                                    <img src="assets/images/project/project-2-1.png" alt="Gas Installation">
+                                    <div class="project-one__item__content">
+                                        <p class="project-one__item__cats">Gas Solutions</p>
+                                        <h5 class="project-one__item__title"><a href="project-details.html">LPG
+                                                Gas Installations</a></h5>
+                                        <a href="project-details.html" class="project-one__item__rm">
+                                            <i class="icofont-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div><!-- /.item -->
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="50ms">
+                                <div class="project-one__item">
+                                    <img src="assets/images/project/project-2-2.png" alt="LPG Supply">
+                                    <div class="project-one__item__content">
+                                        <p class="project-one__item__cats">LPG Supply</p>
+                                        <h5 class="project-one__item__title"><a href="project-details.html">Bulk LPG
+                                                Delivery</a></h5>
+                                        <a href="project-details.html" class="project-one__item__rm">
+                                            <i class="icofont-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div><!-- /.item -->
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                                <div class="project-one__item">
+                                    <img src="assets/images/project/project-2-3.png" alt="Cylinder Safety">
+                                    <div class="project-one__item__content">
+                                        <p class="project-one__item__cats">Safety Check</p>
+                                        <h5 class="project-one__item__title"><a href="project-details.html">Gas Leak
+                                                Detection</a></h5>
+                                        <a href="project-details.html" class="project-one__item__rm">
+                                            <i class="icofont-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div><!-- /.item -->
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="150ms">
+                                <div class="project-one__item">
+                                    <img src="assets/images/project/project-2-4.png" alt="Industrial Heating">
+                                    <div class="project-one__item__content">
+                                        <p class="project-one__item__cats">Infrastructure</p>
+                                        <h5 class="project-one__item__title"><a href="project-details.html">LPG Gas
+                                                Maintenance
+                                                & Safety Inspections</a></h5>
+                                        <a href="project-details.html" class="project-one__item__rm">
+                                            <i class="icofont-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div><!-- /.item -->
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                                <div class="project-one__item">
+                                    <img src="assets/images/project/project-2-5.png" alt="LPG Refills">
+                                    <div class="project-one__item__content">
+                                        <p class="project-one__item__cats">Retail</p>
+                                        <h5 class="project-one__item__title"><a href="project-details.html">Express Gas
+                                                Refills</a></h5>
+                                        <a href="project-details.html" class="project-one__item__rm">
+                                            <i class="icofont-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div><!-- /.item -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Inline CSS for Tabs (Cleaner than modifying global CSS for now) -->
+                <style>
+                    .custom-tab-btn {
+                        border-radius: 50px !important;
+                        padding: 12px 35px !important;
+                        font-weight: 700 !important;
+                        text-transform: uppercase;
+                        letter-spacing: 1px;
+                        color: var(--alefox-base) !important;
+                        background-color: transparent;
+                        border: 2px solid var(--alefox-base) !important;
+                        transition: all 0.3s ease;
+                    }
+
+                    .custom-tab-btn:hover {
+                        background-color: rgba(0, 33, 71, 0.1);
+                    }
+
+                    .custom-tab-btn.active {
+                        background-color: var(--alefox-base) !important;
+                        color: #ffffff !important;
+                        box-shadow: 0 5px 15px rgba(0, 33, 71, 0.3);
+                    }
+
+                    /* Update Project Category Text Color */
+                    .project-one__item__cats {
+                        color: var(--alefox-yellow) !important;
+                    }
+                </style>
+            </div><!-- /.container -->
+        </section><!-- /.project-one -->
+
+        <section class="work-process-one">
+            <div class="container">
+                <div class="sec-title text-center">
+
+                    <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__left-leaf"
+                            style="background-image: url(assets/images/shapes/leaf.png);"></span>Our Service Process
+                        <span class="sec-title__tagline__right-leaf"
+                            style="background-image: url(assets/images/shapes/leaf.png);"></span>
+                    </h6>
+                    <!-- /.sec-title__tagline -->
+
+                    <h3 class="sec-title__title bw-split-in-left">How Flora Delivers Reliable Energy</h3>
+                    <!-- /.sec-title__title -->
+                </div><!-- /.sec-title -->
+                <div class="row gutter-y-30">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp animated" data-wow-delay="00ms">
+                        <div class="work-process-one__item text-center">
+                            <div class="work-process-one__item__thumb">
+                                <img src="assets/images/resources/process-consultation.png" alt="Consultation">
+                            </div><!-- /.work-process-image -->
+                            <div class="work-process-one__item__content">
+                                <div class="work-process-one__item__shape"
+                                    style="background-image: url(assets/images/shapes/work-process-1-shape.png);"></div>
+                                <h4 class="work-process-one__item__title">Consultation</h4><!-- /.work-process-title -->
+                                <p class="work-process-one__item__text">
+                                    Assessment of your energy needs to recommend the best solar or gas solution.
+                                </p><!-- /.work-process-text -->
+                                <div class="work-process-one__item__number"></div><!-- /.work-process-number -->
+                            </div>
+                        </div><!-- /.work-process-item -->
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp animated" data-wow-delay="100ms">
+                        <div class="work-process-one__item text-center">
+                            <div class="work-process-one__item__thumb">
+                                <img src="assets/images/resources/process-design.png" alt="System Design">
+                            </div><!-- /.work-process-image -->
+                            <div class="work-process-one__item__content">
+                                <div class="work-process-one__item__shape"
+                                    style="background-image: url(assets/images/shapes/work-process-1-shape.png);"></div>
+                                <h4 class="work-process-one__item__title">System Design</h4>
+                                <!-- /.work-process-title -->
+                                <p class="work-process-one__item__text">
+                                    Customized solar or LPG solution with transparent pricing.
+                                </p><!-- /.work-process-text -->
+                                <div class="work-process-one__item__number"></div><!-- /.work-process-number -->
+                            </div>
+                        </div><!-- /.work-process-item -->
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp animated" data-wow-delay="200ms">
+                        <div class="work-process-one__item text-center">
+                            <div class="work-process-one__item__thumb">
+                                <img src="assets/images/resources/process-installation.png" alt="Installation">
+                            </div><!-- /.work-process-image -->
+                            <div class="work-process-one__item__content">
+                                <div class="work-process-one__item__shape"
+                                    style="background-image: url(assets/images/shapes/work-process-1-shape.png);"></div>
+                                <h4 class="work-process-one__item__title">Installation & Supply</h4>
+                                <!-- /.work-process-title -->
+                                <p class="work-process-one__item__text">
+                                    Professional installation, gas filling, or equipment delivery.
+                                </p><!-- /.work-process-text -->
+                                <div class="work-process-one__item__number"></div><!-- /.work-process-number -->
+                            </div>
+                        </div><!-- /.work-process-item -->
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp animated" data-wow-delay="300ms">
+                        <div class="work-process-one__item text-center">
+                            <div class="work-process-one__item__thumb">
+                                <img src="assets/images/resources/process-support.png" alt="Support">
+                            </div><!-- /.work-process-image -->
+                            <div class="work-process-one__item__content">
+                                <div class="work-process-one__item__shape"
+                                    style="background-image: url(assets/images/shapes/work-process-1-shape.png);"></div>
+                                <h4 class="work-process-one__item__title">Support & Maintenance</h4>
+                                <!-- /.work-process-title -->
+                                <p class="work-process-one__item__text">
+                                    System testing, safety checks, and ongoing support.
+                                </p><!-- /.work-process-text -->
+                                <div class="work-process-one__item__number"></div><!-- /.work-process-number -->
+                            </div>
+                        </div><!-- /.work-process-item -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Work Process End -->
+
+
+
+        <section class="cta-four" style="overflow: hidden; background-color: transparent;">
+            <div class="cta-four__bg-overlay"
+                style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.6); z-index: 0;">
+            </div>
+            <video autoplay loop muted playsinline class="cta-four__bg"
+                style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; object-fit: cover; opacity: 1; z-index: -1;">
+                <source src="assets/images/backgrounds/1477987_People_Technology_3840x2160.mp4" type="video/mp4">
+            </video>
+            <!-- /.cta-four__bg -->
+            <style>
+                /* Scoped styles for high contrast in this section */
+                .cta-four__title span {
+                    background-color: var(--alefox-yellow, #FFD700) !important;
+                    color: var(--alefox-black, #122f2a) !important;
+                }
+
+                .cta-four__countdown li {
+                    border-color: var(--alefox-yellow, #FFD700) !important;
+                }
+
+                .cta-four__countdown li i {
+                    background-color: var(--alefox-yellow, #FFD700) !important;
+                    color: var(--alefox-black, #122f2a) !important;
+                }
+
+                /* Button: Transparent with Yellow Animated Stroke */
+                .cta-four .alefox-btn {
+                    background-color: transparent !important;
+                    color: #fff !important;
+                    /* White text for visibility */
+                    border: none !important;
+                    /* Remove solid border to show animation */
+                }
+
+                /* Target the animated border spans */
+                .cta-four .alefox-btn .alefox-btn__item {
+                    background-color: var(--alefox-yellow, #FFD700) !important;
+                }
+
+                .cta-four .alefox-btn:hover {
+                    background-color: transparent !important;
+                    color: var(--alefox-yellow, #FFD700) !important;
+                }
+
+                /* Ensure countdown numbers are visible */
+                .cta-four__countdown li span {
+                    color: #fff !important;
+                }
+
+                .cta-four__title {
+                    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+                }
+            </style>
+            <div class="container wow fadeInUp" style="position: relative; z-index: 1;">
+                <h5 class="cta-four__sub-title">Limited Time Offer</h5>
+                <h2 class="cta-four__title">Get <span>10%</span> Off Solar<br> & Gas Installations</h2>
+                <ul class="countdown-one__list cta-four__countdown list-unstyled" data-leading-zeros="true"
+                    data-enable-days="true" data-deadline-date="dynamicDate"></ul>
+                <!-- /.countdown-one__list list-unstyled -->
+                <a href="contact.html" class="alefox-btn">
+                    <span class="alefox-btn__item"></span>
+                    <span class="alefox-btn__item"></span>
+                    <span class="alefox-btn__item"></span>
+                    <span class="alefox-btn__item"></span>
+                    Get a Quote
+                </a>
+            </div>
+        </section>
+
+        <!-- Work Process Start -->
+        <section class="testimonials-one">
+            <div class="testimonials-one__shape"
+                style="background-image: url(assets/images/resources/testimonials-shape-1.png);"></div>
+            <div class="container">
+                <div class="testimonials-one__wrapper">
+                    <h2 class="testimonials-one__wrapper__title">Testimonials</h2>
+                    <ul class="testimonials-one__carousel-thumb alefox-slick__carousel" data-slick-options='{
+				"slidesToShow": 3,
+				"slidesToScroll": 1,
+				"autoplay": true,
+				"centerMode": true,
+				"asNavFor": ".testimonials-one__carousel",
+				"focusOnSelect": true,
+				"vertical": true,
+				"verticalSwiping": true,
+				"dots": false,
+				"centerPadding": 0,
+				"arrows": false,
+				"responsive": [
+					{
+						"breakpoint": 992,
+						"settings": {
+							"vertical": false,
+							"verticalSwiping": false
+						}
+					}
+				]
+				}'>
+                        <li role="presentation">
+                            <span class="testimonials-one__meta-thumb"><img src="assets/images/resources/testi-1-1.jpg"
+                                    alt="alefox"></span>
+                        </li><!-- Testimonial Item -->
+                        <li role="presentation">
+                            <span class="testimonials-one__meta-thumb"><img src="assets/images/resources/testi-1-2.jpg"
+                                    alt="alefox"></span>
+                        </li><!-- Testimonial Item -->
+                        <li role="presentation">
+                            <span class="testimonials-one__meta-thumb"><img src="assets/images/resources/testi-1-3.jpg"
+                                    alt="alefox"></span>
+                        </li><!-- Testimonial Item -->
+                        <li role="presentation">
+                            <span class="testimonials-one__meta-thumb"><img src="assets/images/resources/testi-1-4.jpg"
+                                    alt="alefox"></span>
+                        </li><!-- Testimonial Item -->
+                        <li role="presentation">
+                            <span class="testimonials-one__meta-thumb"><img src="assets/images/resources/testi-1-5.jpg"
+                                    alt="alefox"></span>
+                        </li><!-- Testimonial Item -->
+                    </ul><!-- Testimonial Thumb -->
+                    <div class="testimonials-one__carousel alefox-slick__carousel" data-slick-options='{
+				"slidesToShow": 1,
+				"slidesToScroll": 1,
+				"asNavFor": ".testimonials-one__carousel-thumb",
+				"autoplay": true,
+				"dots": false,
+				"centerPadding": 0,
+				"arrows": false,
+				"nextArrow": "<button class=\"next\"><i class=\"icon-right-arrow-two1\"></i></button>",
+				"prevArrow": "<button class=\"prev\"><i class=\"icon-right-arrow-two\"></i></button>"
+				}'>
+                        <div class="item">
+                            <div class="testimonials-one__item">
+                                <div class="testimonials-one__item__thumb">
+                                    <img src="assets/images/resources/testi-1-1.jpg" alt="alefox">
+                                </div>
+                                <div class="testimonials-one__item__content">
+                                    <div class="testimonials-one__item__ratings">
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                    </div>
+                                    <div class="testimonials-one__item__quote">
+                                        Continued at up to zealously necessary we retar this surrounded sir motionless
+                                        of this she end literature.
+                                        Gay direction this food neglected but supported sociable not pretended.
+                                    </div>
+                                    <h5 class="testimonials-one__item__name">Joseph Kennedy</h5>
+                                    <span class="testimonials-one__item__designation">Founder</span>
+                                    <div class="testimonials-one__item__icon"><i class="fas fa-quote-right"></i></div>
+                                </div>
+                            </div><!-- testimonial-item -->
+                        </div><!-- item -->
+                        <div class="item">
+                            <div class="testimonials-one__item">
+                                <div class="testimonials-one__item__thumb">
+                                    <img src="assets/images/resources/testi-1-2.jpg" alt="alefox">
+                                </div>
+                                <div class="testimonials-one__item__content">
+                                    <div class="testimonials-one__item__ratings">
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                    </div>
+                                    <div class="testimonials-one__item__quote">
+                                        Continued at up to zealously necessary we retar this surrounded sir motionless
+                                        of this she end literature.
+                                        Gay direction this food neglected but supported sociable not pretended.
+                                    </div>
+                                    <h5 class="testimonials-one__item__name">Mike Hardson</h5>
+                                    <span class="testimonials-one__item__designation">Manager</span>
+                                    <div class="testimonials-one__item__icon"><i class="fas fa-quote-right"></i></div>
+                                </div>
+                            </div><!-- testimonial-item -->
+                        </div><!-- item -->
+                        <div class="item">
+                            <div class="testimonials-one__item">
+                                <div class="testimonials-one__item__thumb">
+                                    <img src="assets/images/resources/testi-1-3.jpg" alt="alefox">
+                                </div>
+                                <div class="testimonials-one__item__content">
+                                    <div class="testimonials-one__item__ratings">
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                    </div>
+                                    <div class="testimonials-one__item__quote">
+                                        Continued at up to zealously necessary we retar this surrounded sir motionless
+                                        of this she end literature.
+                                        Gay direction this food neglected but supported sociable not pretended.
+                                    </div>
+                                    <h5 class="testimonials-one__item__name">Steve Smith</h5>
+                                    <span class="testimonials-one__item__designation">Reviewer</span>
+                                    <div class="testimonials-one__item__icon"><i class="fas fa-quote-right"></i></div>
+                                </div>
+                            </div><!-- testimonial-item -->
+                        </div><!-- item -->
+                        <div class="item">
+                            <div class="testimonials-one__item">
+                                <div class="testimonials-one__item__thumb">
+                                    <img src="assets/images/resources/testi-1-4.jpg" alt="alefox">
+                                </div>
+                                <div class="testimonials-one__item__content">
+                                    <div class="testimonials-one__item__ratings">
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                    </div>
+                                    <div class="testimonials-one__item__quote">
+                                        Continued at up to zealously necessary we retar this surrounded sir motionless
+                                        of this she end literature.
+                                        Gay direction this food neglected but supported sociable not pretended.
+                                    </div>
+                                    <h5 class="testimonials-one__item__name">Jerome Taylor</h5>
+                                    <span class="testimonials-one__item__designation">Developer</span>
+                                    <div class="testimonials-one__item__icon"><i class="fas fa-quote-right"></i></div>
+                                </div>
+                            </div><!-- testimonial-item -->
+                        </div><!-- item -->
+                        <div class="item">
+                            <div class="testimonials-one__item">
+                                <div class="testimonials-one__item__thumb">
+                                    <img src="assets/images/resources/testi-1-5.jpg" alt="alefox">
+                                </div>
+                                <div class="testimonials-one__item__content">
+                                    <div class="testimonials-one__item__ratings">
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                    </div>
+                                    <div class="testimonials-one__item__quote">
+                                        Continued at up to zealously necessary we retar this surrounded sir motionless
+                                        of this she end literature.
+                                        Gay direction this food neglected but supported sociable not pretended.
+                                    </div>
+                                    <h5 class="testimonials-one__item__name">Mark Wood</h5>
+                                    <span class="testimonials-one__item__designation">Customer</span>
+                                    <div class="testimonials-one__item__icon"><i class="fas fa-quote-right"></i></div>
+                                </div>
+                            </div><!-- testimonial-item -->
+                        </div><!-- item -->
+                    </div><!-- testimonial-content -->
+                </div>
+            </div><!-- /.container -->
+        </section><!-- /.testimonials-one -->
+
+
+        <section class="faq-one">
+            <div class="faq-one__shape" style="background-image: url(assets/images/resources/faq-shape-1.png);"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 wow fadeInUp" data-wow-delay="100ms">
+                        <div class="faq-one__content">
+                            <div class="sec-title text-left">
+
+                                <h6 class="sec-title__tagline bw-split-in-right"><span
+                                        class="sec-title__tagline__left-leaf"
+                                        style="background-image: url(assets/images/shapes/leaf.png);"></span>Common
+                                    Questions<span class="sec-title__tagline__right-leaf"
+                                        style="background-image: url(assets/images/shapes/leaf.png);"></span></h6>
+                                <!-- /.sec-title__tagline -->
+
+                                <h3 class="sec-title__title bw-split-in-left">Get Answers to Your Energy Questions</h3>
+                                <!-- /.sec-title__title -->
+                            </div><!-- /.sec-title --><!-- section-title -->
+                            <p class="faq-one__content__text">
+                                Find answers to the most common questions about our solar installations, gas delivery
+                                services, and safety standards.
+                            </p>
+                            <div class="faq-one__accordion alefox-accrodion" data-grp-name="alefox-accrodion">
+                                <div class="accrodion">
+                                    <div class="accrodion-title">
+                                        <h4>
+                                            <span class="accrodion-title__number"></span>
+                                            What types of solar energy systems do you provide?
+                                            <span class="accrodion-title__icon"></span><!-- /.accrodion-title__icon -->
+                                        </h4>
+                                    </div><!-- /.accordian-title -->
+                                    <div class="accrodion-content">
+                                        <div class="inner">
+                                            <p>
+                                                We specialize in hybrid and off-grid solar systems for both residential
+                                                and commercial properties, customized to your energy consumption needs.
+                                            </p>
+                                        </div><!-- /.accordian-content -->
+                                    </div>
+                                </div><!-- /.accordian-item -->
+                                <div class="accrodion active">
+                                    <div class="accrodion-title">
+                                        <h4>
+                                            <span class="accrodion-title__number"></span>
+                                            How fast is your LPG gas delivery service?
+                                            <span class="accrodion-title__icon"></span><!-- /.accrodion-title__icon -->
+                                        </h4>
+                                    </div><!-- /.accordian-title -->
+                                    <div class="accrodion-content">
+                                        <div class="inner">
+                                            <p>
+                                                We offer express same-day delivery for local residential orders and
+                                                reliable scheduled bulk supply for commercial businesses.
+                                            </p>
+                                        </div><!-- /.accordian-content -->
+                                    </div>
+                                </div><!-- /.accordian-item -->
+                                <div class="accrodion">
+                                    <div class="accrodion-title">
+                                        <h4>
+                                            <span class="accrodion-title__number"></span>
+                                            Do you offer maintenance for solar inverters?
+                                            <span class="accrodion-title__icon"></span><!-- /.accrodion-title__icon -->
+                                        </h4>
+                                    </div><!-- /.accordian-title -->
+                                    <div class="accrodion-content">
+                                        <div class="inner">
+                                            <p>
+                                                Yes, we provide full technical support, including inverter repairs,
+                                                battery health checks, and solar panel cleaning services.
+                                            </p>
+                                        </div><!-- /.accordian-content -->
+                                    </div>
+                                </div><!-- /.accordian-item -->
+                                <div class="accrodion">
+                                    <div class="accrodion-title">
+                                        <h4>
+                                            <span class="accrodion-title__number"></span>
+                                            Are your gas installations safety certified?
+                                            <span class="accrodion-title__icon"></span><!-- /.accrodion-title__icon -->
+                                        </h4>
+                                    </div><!-- /.accordian-title -->
+                                    <div class="accrodion-content">
+                                        <div class="inner">
+                                            <p>
+                                                Absolutely. All our gas installations and refills adhere to strict
+                                                safety regulations, ensuring peace of mind for your home and family.
+                                            </p>
+                                        </div><!-- /.accordian-content -->
+                                    </div>
+                                </div><!-- /.accordian-item -->
+                            </div>
+                        </div><!-- /.faq-one__contact -->
+                    </div><!-- /.col-lg-6 -->
+                    <div class="col-xl-6">
+                        <div class="faq-one__image wow fadeInUp">
+                            <img src="assets/images/resources/faq-1-1.png" alt="alefox">
+                            <div class="faq-one__image__shape-one wow fadeInLeft" data-wow-delay="300ms">
+                                <img src="assets/images/shapes/faq-shape.png" alt="alefox">
+                            </div>
+                            <div class="faq-one__image__shape-two wow fadeInRight" data-wow-delay="200ms">
+                                <img src="assets/images/shapes/faq-shape-2.png" alt="alefox">
+                            </div>
+                        </div>
+                    </div><!-- /.col-lg-6 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </section><!-- /.faq-one -->
+
+        <section class="blog-two">
+            <div class="container">
+                <div class="sec-title text-center">
+
+                    <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__left-leaf"
+                            style="background-image: url(assets/images/shapes/leaf.png);"></span>From the Blog<span
+                            class="sec-title__tagline__right-leaf"
+                            style="background-image: url(assets/images/shapes/leaf.png);"></span></h6>
+                    <!-- /.sec-title__tagline -->
+
+                    <h3 class="sec-title__title bw-split-in-left">Latest News & Articles</h3><!-- /.sec-title__title -->
+                </div><!-- /.sec-title -->
+                <div class="blog-two__carousel alefox-owl__carousel alefox-owl__carousel--with-shadow alefox-owl__carousel--basic-nav owl-carousel owl-theme"
+                    data-owl-options='{
+				"items": 1,
+				"margin": 30,
+				"loop": false,
+				"smartSpeed": 700,
+				"nav": false,
+				"navText": ["<span class=\"icofont-bubble-left\"></span>","<span class=\"icofont-bubble-righ\"></span>"],
+				"dots": false,
+				"autoplay": false,
+				"responsive": {
+					"0": {
+						"items": 1
+					},
+					"768": {
+						"items": 2
+					},
+					"992": {
+						"items": 3
+					}
+				}
+			}'>
+                    <div class="item">
+                        <div class="blog-card-two wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='00ms'>
+                            <div class="blog-card-two__image">
+                                <img src="assets/images/blog/blog-2-1.jpg"
+                                    alt="In our Gardens Plants for the Shade Grden">
+                                <a href="blog-details-right.html" class="blog-card-two__image__link"><span
+                                        class="sr-only">In our Gardens Plants for the Shade Grden</span>
+                                    <!-- /.sr-only --></a>
+                            </div><!-- /.blog-card-two__image -->
+                            <div class="blog-card-two__content">
+                                <div class="blog-card-two__leaf"
+                                    style="background-image: url(assets/images/shapes/blog-card-two-leaf.png);"></div>
+                                <div class="blog-card-two__date">26<span>Jun</span></div>
+                                <ul class="list-unstyled blog-card-two__meta">
+                                    <li><i class="icofont-ui-user"></i>Admin: <a href="blog-list-right.html">Lorat</a>
+                                    </li>
+                                    <li><i class="icofont-comment"></i>Comments (5)</li>
+                                </ul><!-- /.list-unstyled blog-card-two__meta -->
+                                <h3 class="blog-card-two__title"><a href="blog-details-right.html">In our Gardens Plants
+                                        for the Shade Grden</a></h3><!-- /.blog-card-two__title -->
+                                <p class="blog-card-two__text">
+                                    We business standard chunk ofI nibh velit auctor aliquet sollic tudin.
+                                </p><!-- /.blog-card-two__text -->
+                                <a href="blog-details-right.html" class="blog-card-two__link">
+                                    <i class="icofont-arrow-right"></i>
+                                    Read more
+                                </a><!-- /.blog-card-two__link -->
+                            </div><!-- /.blog-card-two__content -->
+                        </div><!-- /.blog-card-two -->
+                    </div><!-- /.item -->
+                    <div class="item">
+                        <div class="blog-card-two wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='100ms'>
+                            <div class="blog-card-two__image">
+                                <img src="assets/images/blog/blog-2-2.jpg"
+                                    alt="Choosing the Right Variety of Potato to Grow">
+                                <a href="blog-details-right.html" class="blog-card-two__image__link"><span
+                                        class="sr-only">Choosing the Right Variety of Potato to Grow</span>
+                                    <!-- /.sr-only --></a>
+                            </div><!-- /.blog-card-two__image -->
+                            <div class="blog-card-two__content">
+                                <div class="blog-card-two__leaf"
+                                    style="background-image: url(assets/images/shapes/blog-card-two-leaf.png);"></div>
+                                <div class="blog-card-two__date">26<span>Jun</span></div>
+                                <ul class="list-unstyled blog-card-two__meta">
+                                    <li><i class="icofont-ui-user"></i>Admin: <a href="blog-list-right.html">Lorat</a>
+                                    </li>
+                                    <li><i class="icofont-comment"></i>Comments (5)</li>
+                                </ul><!-- /.list-unstyled blog-card-two__meta -->
+                                <h3 class="blog-card-two__title"><a href="blog-details-right.html">Choosing the Right
+                                        Variety of Potato to Grow</a></h3><!-- /.blog-card-two__title -->
+                                <p class="blog-card-two__text">
+                                    We business standard chunk ofI nibh velit auctor aliquet sollic tudin.
+                                </p><!-- /.blog-card-two__text -->
+                                <a href="blog-details-right.html" class="blog-card-two__link">
+                                    <i class="icofont-arrow-right"></i>
+                                    Read more
+                                </a><!-- /.blog-card-two__link -->
+                            </div><!-- /.blog-card-two__content -->
+                        </div><!-- /.blog-card-two -->
+                    </div><!-- /.item -->
+                    <div class="item">
+                        <div class="blog-card-two wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='200ms'>
+                            <div class="blog-card-two__image">
+                                <img src="assets/images/blog/blog-2-3.jpg"
+                                    alt="The Right way to Grow the Sisters of Field">
+                                <a href="blog-details-right.html" class="blog-card-two__image__link"><span
+                                        class="sr-only">The Right way to Grow the Sisters of Field</span>
+                                    <!-- /.sr-only --></a>
+                            </div><!-- /.blog-card-two__image -->
+                            <div class="blog-card-two__content">
+                                <div class="blog-card-two__leaf"
+                                    style="background-image: url(assets/images/shapes/blog-card-two-leaf.png);"></div>
+                                <div class="blog-card-two__date">26<span>Jun</span></div>
+                                <ul class="list-unstyled blog-card-two__meta">
+                                    <li><i class="icofont-ui-user"></i>Admin: <a href="blog-list-right.html">Lorat</a>
+                                    </li>
+                                    <li><i class="icofont-comment"></i>Comments (5)</li>
+                                </ul><!-- /.list-unstyled blog-card-two__meta -->
+                                <h3 class="blog-card-two__title"><a href="blog-details-right.html">The Right way to Grow
+                                        the Sisters of Field</a></h3><!-- /.blog-card-two__title -->
+                                <p class="blog-card-two__text">
+                                    We business standard chunk ofI nibh velit auctor aliquet sollic tudin.
+                                </p><!-- /.blog-card-two__text -->
+                                <a href="blog-details-right.html" class="blog-card-two__link">
+                                    <i class="icofont-arrow-right"></i>
+                                    Read more
+                                </a><!-- /.blog-card-two__link -->
+                            </div><!-- /.blog-card-two__content -->
+                        </div><!-- /.blog-card-two -->
+                    </div><!-- /.item -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </section><!-- /.blog-two -->
+
+        <div class="offer-one">
+            <div class="container">
+                <div class="offer-one__inner" style="background-image: url(assets/images/shapes/offer-bg-1.png);">
+                    <div class="offer-one__shape-one"
+                        style="background-image: url(assets/images/shapes/offer-s-1-1.png);"></div>
+                    <div class="row">
+                        <div class="col-lg-6 wow fadeInUp">
+                            <div class="offer-one__left">
+                                <img src="assets/images/resources/offer-1-1.png" alt="alefox">
+                                <div class="offer-one__left__off"><span>32%</span>Discounts</div>
+                                <div class="offer-one__left__arrow"><img src="assets/images/shapes/offer-arrow.png"
+                                        alt="alefox"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 d-flex align-items-center wow fadeInRight" data-wow-delay="200ms">
+                            <div class="offer-one__content">
+                                <h5 class="offer-one__sub-title">Discounts Added</h5>
+                                <h3 class="offer-one__title">Natural Healthy Leader<br> Vegetables Market</h3>
+                                <a href="contact.html" class="alefox-btn">
+                                    <span class="alefox-btn__item"></span>
+                                    <span class="alefox-btn__item"></span>
+                                    <span class="alefox-btn__item"></span>
+                                    <span class="alefox-btn__item"></span>
+                                    Order Now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.container -->
+        </div><!-- /.offer-one -->
+
+        <div class="client-carousel client-carousel--two @@extraClassName">
+            <div class="container">
+                <div class="client-carousel__one alefox-owl__carousel owl-theme owl-carousel" data-owl-options='{
+            "items": 5,
+            "margin": 65,
+            "smartSpeed": 700,
+            "loop":true,
+            "autoplay": 6000,
+            "nav":false,
+            "dots":false,
+            "navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
+            "responsive":{
+                "0":{
+                    "items":1,
+                    "margin": 0
+                },
+                "360":{
+                    "items":2,
+                    "margin": 0
+                },
+                "575":{
+                    "items":3,
+                    "margin": 30
+                },
+                "768":{
+                    "items":3,
+                    "margin": 40
+                },
+                "992":{
+                    "items": 4,
+                    "margin": 40
+                },
+                "1200":{
+                    "items": 5
+                }
+            }
+            }'>
+                    <div class="client-carousel__one__item">
+                        <img src="assets/images/brand/brand-1-1.png" alt="alefox">
+                    </div><!-- /.owl-slide-item-->
+                    <div class="client-carousel__one__item">
+                        <img src="assets/images/brand/brand-1-1.png" alt="alefox">
+                    </div><!-- /.owl-slide-item-->
+                    <div class="client-carousel__one__item">
+                        <img src="assets/images/brand/brand-1-1.png" alt="alefox">
+                    </div><!-- /.owl-slide-item-->
+                    <div class="client-carousel__one__item">
+                        <img src="assets/images/brand/brand-1-1.png" alt="alefox">
+                    </div><!-- /.owl-slide-item-->
+                    <div class="client-carousel__one__item">
+                        <img src="assets/images/brand/brand-1-1.png" alt="alefox">
+                    </div><!-- /.owl-slide-item-->
+                    <div class="client-carousel__one__item">
+                        <img src="assets/images/brand/brand-1-1.png" alt="alefox">
+                    </div><!-- /.owl-slide-item-->
+                    <div class="client-carousel__one__item">
+                        <img src="assets/images/brand/brand-1-1.png" alt="alefox">
+                    </div><!-- /.owl-slide-item-->
+                    <div class="client-carousel__one__item">
+                        <img src="assets/images/brand/brand-1-1.png" alt="alefox">
+                    </div><!-- /.owl-slide-item-->
+                    <div class="client-carousel__one__item">
+                        <img src="assets/images/brand/brand-1-1.png" alt="alefox">
+                    </div><!-- /.owl-slide-item-->
+                    <div class="client-carousel__one__item">
+                        <img src="assets/images/brand/brand-1-1.png" alt="alefox">
+                    </div><!-- /.owl-slide-item-->
+                </div><!-- /.thm-owl__slider -->
+            </div><!-- /.container -->
+        </div><!-- /.client-carousel -->
+
+        <!-- Service Start -->
+        <section class="contact-one">
+            <div class="contact-one__shape" style="background-image: url(assets/images/shapes/contact-shape-1.png);">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 wow slideInLeft">
+                        <div class="alefox-stretch-element-inside-column">
+                            <div class="contact-one__image">
+                                <img src="assets/images/resources/contact-1-1.jpg" alt="alefox">
+                                <div class="contact-one__info wow fadeInUp" data-wow-delay="400ms">
+                                    <div class="contact-one__info__icon"><span class="icon-phone-call"></span></div>
+                                    <p class="contact-one__info__sub-title">call now</p>
+                                    <h5 class="contact-one__info__title">Get This Free For<br> Contact Now</h5>
+                                    <p class="contact-one__info__phone"><a href="tel:+7255500022">+72 (555) 000 22</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-flex align-items-center">
+                        <form class="contact-one__form contact-form-validated form-one wow fadeInUp"
+                            data-wow-duration="1500ms" action="inc/sendemail.php">
+                            <div class="sec-title text-center">
+
+                                <h6 class="sec-title__tagline bw-split-in-right"><span
+                                        class="sec-title__tagline__left-leaf"
+                                        style="background-image: url(assets/images/shapes/leaf.png);"></span>Contact
+                                    Us<span class="sec-title__tagline__right-leaf"
+                                        style="background-image: url(assets/images/shapes/leaf.png);"></span></h6>
+                                <!-- /.sec-title__tagline -->
+
+                                <h3 class="sec-title__title bw-split-in-left">Get in Touch</h3>
+                                <!-- /.sec-title__title -->
+                            </div><!-- /.sec-title -->
+                            <div class="form-one__group">
+                                <div class="form-one__control form-one__control--full">
+                                    <input type="text" name="name" placeholder="Name">
+                                </div><!-- /.form-one__control form-one__control--full -->
+                                <div class="form-one__control form-one__control--full">
+                                    <input type="email" name="email" placeholder="Email">
+                                </div><!-- /.form-one__control form-one__control--full -->
+                                <div class="form-one__control form-one__control--full">
+                                    <input type="text" name="address" placeholder="Address">
+                                </div><!-- /.form-one__control form-one__control--full -->
+                                <div class="form-one__control form-one__control--full">
+                                    <input type="text" name="phone" placeholder="Phone">
+                                </div><!-- /.form-one__control form-one__control--full -->
+                                <div class="form-one__control form-one__control--full">
+                                    <div class="form-one__control__select">
+                                        <label class="sr-only" for="service-select">Choose Service</label>
+                                        <!-- /#service-select.sr-only -->
+                                        <select class="selectpicker" id="service-select">
+                                            <option value="Select service">Choose Service</option>
+                                            <option value="Select service 01">Select Service 01</option>
+                                            <option value="Select service 02">Select Service 02</option>
+                                        </select>
+                                    </div><!-- /.main-menu__service -->
+                                </div><!-- /.form-one__control form-one__control--full -->
+                                <div class="form-one__control form-one__control--full">
+                                    <button type="submit" class="alefox-btn">
+                                        <span class="alefox-btn__item"></span>
+                                        <span class="alefox-btn__item"></span>
+                                        <span class="alefox-btn__item"></span>
+                                        <span class="alefox-btn__item"></span>
+                                        Send Request
+                                    </button>
+                                </div><!-- /.form-one__control -->
+                            </div><!-- /.form-one__group -->
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-info">
+            <div class="container">
+                <ul class="contact-info__list">
+                    <li class="contact-info__item">
+                        <div class="contact-info__item__icon"><span class="icon-phone-call"></span></div>
+                        <div class="contact-info__item__content">
+                            <h3 class="contact-info__item__title">Call This Now</h3>
+                            <p class="contact-info__item__text"><a href="tel:+044461556695">+044461556695</a></p>
+                        </div>
+                    </li><!-- item -->
+                    <li class="contact-info__item">
+                        <div class="contact-info__item__icon"><span class="icon-email"></span></div>
+                        <div class="contact-info__item__content">
+                            <h3 class="contact-info__item__title">Your Message</h3>
+                            <p class="contact-info__item__text"><a href="mailto:your@gmail.com">your@gmail.com</a></p>
+                        </div>
+                    </li><!-- item -->
+                    <li class="contact-info__item">
+                        <div class="contact-info__item__icon"><span class="icon-location"></span></div>
+                        <div class="contact-info__item__content">
+                            <h3 class="contact-info__item__title">Your Location</h3>
+                            <p class="contact-info__item__text">13/A, Miranda City</p>
+                        </div>
+                    </li><!-- item -->
+                </ul>
+            </div>
+        </section>
+
+        <section class="cta-two">
+            <div class="cta-two__shape" style="background-image: url(assets/images/shapes/cta-2-1.png);"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9 wow fadeInRight" data-wow-delay="100ms">
+                        <div class="cta-two__content">
+                            <div class="cta-two__content__thumb">
+                                <img src="assets/images/resources/cta-2-2.jpg" alt="alefox">
+                            </div>
+                            <h3 class="cta-two__title">
+                                The Processfor Agriculture
+                            </h3>
+                            <p class="cta-two__text">
+                                We are the some preferred choice by many car owners because our experience and is selfe
+                                vident.For your car we will do som everything
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 d-flex align-items-center justify-content-end wow fadeInRight"
+                        data-wow-delay="200ms">
+                        <a href="contact.html" class="alefox-btn">
+                            <span class="alefox-btn__item"></span>
+                            <span class="alefox-btn__item"></span>
+                            <span class="alefox-btn__item"></span>
+                            <span class="alefox-btn__item"></span>
+                            Discover More
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.cta-two -->
+
+        <footer class="main-footer background-black">
+            <div class="main-footer__bg background-black"
+                style="background-image: url(assets/images/backgrounds/footer-bg-1-1.jpg);"></div>
+            <!-- /.main-footer__bg -->
+            <div class="main-footer__top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-xl-4">
+                            <div class="footer-widget footer-widget--about">
+                                <a href="index.html" class="footer-widget__logo">
+                                    <img src="assets/images/logo-light.png" width="147" alt="Alefox HTML Template">
+                                </a>
+                                <ul class="list-unstyled footer-widget__info">
+                                    <li>
+                                        <span class="footer-widget__info__icon"><i
+                                                class="icofont-clock-time"></i></span>
+                                        Open Hours of Government: Mon - Fri: 8.00 am. - 6.00 pm.
+                                    </li>
+                                    <li>
+                                        <span class="footer-widget__info__icon"><i
+                                                class="icofont-location-pin"></i></span>
+                                        13/A, Miranda Halim City .
+                                    </li>
+                                    <li>
+                                        <span class="footer-widget__info__icon"><i class="icofont-phone"></i></span>
+                                        <a href="tel:09969569535">099 695 695 35</a>
+                                    </li>
+                                </ul><!-- /.list-unstyled -->
+                                <div class="footer-widget__social">
+
+                                    <a href="https://facebook.com">
+                                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                        <span class="sr-only">Facebook</span>
+                                    </a>
+                                    <a href="https://pinterest.com">
+                                        <i class="fab fa-pinterest-p" aria-hidden="true"></i>
+                                        <span class="sr-only">Pinterest</span>
+                                    </a>
+                                    <a href="https://twitter.com">
+                                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                                        <span class="sr-only">Twitter</span>
+                                    </a>
+                                    <a href="https://instagram.com">
+                                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                                        <span class="sr-only">Instagram</span>
+                                    </a>
+                                </div><!-- /.footer-widget__social -->
+                            </div><!-- /.footer-widget -->
+                        </div><!-- /.col-md-6 -->
+                        <div class="col-md-6 col-xl-3">
+                            <div class="footer-widget footer-widget--links">
+                                <h2 class="footer-widget__title">Service</h2><!-- /.footer-widget__title -->
+                                <ul class="list-unstyled footer-widget__links">
+                                    <li><a href="service-d-fresh.html">Always Fresh</a></li>
+                                    <li><a href="service-d-organic.html">Organic Product</a></li>
+                                    <li><a href="service-d-agriculture.html">Agriculture Staff</a></li>
+                                    <li><a href="service-d-growth.html">Growth Providing</a></li>
+                                    <li><a href="service-d-farming.html">Organic Farming</a></li>
+                                </ul><!-- /.list-unstyled footer-widget__links -->
+                            </div>
+                        </div><!-- /.col-md-6 -->
+                        <div class="col-md-6 col-xl-2">
+                            <div class="footer-widget footer-widget--links footer-widget--links-two">
+                                <h2 class="footer-widget__title">Links</h2><!-- /.footer-widget__title -->
+                                <ul class="list-unstyled footer-widget__links">
+                                    <li><a href="checkout.html">Cookie Policy</a></li>
+                                    <li><a href="products-right.html">Shop</a></li>
+                                    <li><a href="login.html">Login</a></li>
+                                    <li><a href="about.html">About us</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                </ul><!-- /.list-unstyled footer-widget__links -->
+                            </div><!-- /.footer-widget -->
+                        </div><!-- /.col-md-6 -->
+                        <div class="col-md-6 col-xl-3">
+                            <div class="footer-widget footer-widget--blog">
+                                <h5 class="footer-widget__title">Recent Posts</h5><!-- /.footer-widget__title -->
+                                <ul class="list-unstyled footer-widget__post">
+                                    <li>
+                                        <img src="assets/images/blog/w-1.jpg" alt="alefox">
+                                        <span class="footer-widget__post__date">23 jun 2023</span>
+                                        <h6 class="footer-widget__post__title"><a href="blog-details-right.html">Organic
+                                                Food for Healty life</a></h6>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/blog/w-2.jpg" alt="alefox">
+                                        <span class="footer-widget__post__date">23 jun 2023</span>
+                                        <h6 class="footer-widget__post__title"><a href="blog-details-right.html">Success
+                                                of Score for Farmer</a></h6>
+                                    </li>
+                                </ul>
+                            </div><!-- /.footer-widget -->
+                        </div><!-- /.col-md-6 -->
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </div><!-- /.main-footer__top -->
+            <div class="main-footer__bottom">
+                <div class="container">
+                    <div class="main-footer__bottom__inner">
+                        <p class="main-footer__copyright">
+                            &copy; Copyright <span class="dynamic-year"></span> by Alefox HTML Template.
+                        </p>
+                    </div><!-- /.main-footer__inner -->
+                </div><!-- /.container -->
+            </div><!-- /.main-footer__bottom -->
+        </footer><!-- /.main-footer -->
+
+    </div><!-- /.page-wrapper -->
+
+
+
+    <div class="mobile-nav__wrapper">
+        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+        <!-- /.mobile-nav__overlay -->
+        <div class="mobile-nav__content">
+            <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
+
+            <div class="logo-box">
+                <a href="index.html" aria-label="logo image"><img src="assets/images/logo-dark.png" width="155"
+                        alt="" /></a>
+            </div>
+            <!-- /.logo-box -->
+            <div class="mobile-nav__container"></div>
+            <!-- /.mobile-nav__container -->
+
+            <ul class="mobile-nav__contact list-unstyled">
+                <li>
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:needhelp@alefox.com">needhelp@alefox.com</a>
+                </li>
+                <li>
+                    <i class="fa fa-phone-alt"></i>
+                    <a href="tel:666-888-0000">666 888 0000</a>
+                </li>
+            </ul><!-- /.mobile-nav__contact -->
+            <div class="mobile-nav__social">
+
+                <a href="https://facebook.com">
+                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                    <span class="sr-only">Facebook</span>
+                </a>
+                <a href="https://pinterest.com">
+                    <i class="fab fa-pinterest-p" aria-hidden="true"></i>
+                    <span class="sr-only">Pinterest</span>
+                </a>
+                <a href="https://twitter.com">
+                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                    <span class="sr-only">Twitter</span>
+                </a>
+                <a href="https://instagram.com">
+                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                    <span class="sr-only">Instagram</span>
+                </a>
+            </div><!-- /.mobile-nav__social -->
+        </div>
+        <!-- /.mobile-nav__content -->
+    </div>
+    <!-- /.mobile-nav__wrapper -->
+    <div class="search-popup">
+        <div class="search-popup__overlay search-toggler"></div>
+        <!-- /.search-popup__overlay -->
+        <div class="search-popup__content">
+            <form role="search" method="get" class="search-popup__form" action="#">
+                <input type="text" id="search" placeholder="Search Here..." />
+                <button type="submit" aria-label="search submit" class="alefox-btn">
+                    <span><i class="icon-magnifying-glass"></i></span>
+                </button>
+            </form>
+        </div>
+        <!-- /.search-popup__content -->
+    </div>
+    <!-- /.search-popup -->
+    <!-- Sidebar One Start -->
+    <aside class="sidebar-one">
+        <div class="sidebar-one__overlay"></div><!-- /.siderbar-ovarlay -->
+        <div class="sidebar-one__content">
+            <div class="sidebar-one__close"><i class="icofont-close-line"></i></div><!-- /.siderbar-close -->
+            <div class="sidebar-one__logo">
+                <a href="index.html" aria-label="logo image"><img src="assets/images/logo-dark.png" alt="Careox HTML"
+                        width="147"></a>
+            </div><!-- /.sidebar-one__logo-box -->
+            <p class="sidebar-one__text">
+                Mauris ut enim sit amet lacus ornare ullamcor. Praesent placerat nequ
+                puru rhoncu tincidunt odio ultrices. Sed feugiat feugiat felis.
+            </p>
+            <h4 class="sidebar-one__title">Contact Info:</h4>
+            <ul class="sidebar-one__info">
+                <li>
+                    <span class="fas fa-map-marker-alt"></span>
+                    85 Ketch Harbour RoadBensalem, PA 19020
+                </li>
+                <li>
+                    <span class="fas fa-envelope"></span>
+                    <a href="mailto:needhelp@company.com">needhelp@company.com</a>
+                </li>
+                <li>
+                    <span class="fas fa-phone-alt"></span>
+                    <a href="tel:09969569535">099 695 695 35</a>
+                </li>
+            </ul>
+            <div class="sidebar-one__social">
+
+                <a href="https://facebook.com">
+                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                    <span class="sr-only">Facebook</span>
+                </a>
+                <a href="https://pinterest.com">
+                    <i class="fab fa-pinterest-p" aria-hidden="true"></i>
+                    <span class="sr-only">Pinterest</span>
+                </a>
+                <a href="https://twitter.com">
+                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                    <span class="sr-only">Twitter</span>
+                </a>
+                <a href="https://instagram.com">
+                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                    <span class="sr-only">Instagram</span>
+                </a>
+            </div><!-- /sidebar-one__socila -->
+            <h4 class="sidebar-one__title">Newsletter:</h4>
+            <form action="#" data-url="MAILCHIMP_FORM_URL" class="sidebar-one__newsletter mc-form">
+                <input type="text" name="EMAIL" placeholder="Email address">
+                <button type="submit" class="fas fa-paper-plane">
+                    <span class="sr-only">submit</span><!-- /.sr-only -->
+                </button>
+            </form><!-- /.footer-widget__newsletter mc-form -->
+        </div><!-- /.sidebar__content -->
+    </aside>
+    <!-- Sidebar One Start -->
+
+    <!-- back-to-top-start -->
+    <a href="#" class="scroll-top">
+        <svg class="scroll-top__circle" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </a>
+    <!-- back-to-top-end -->
+
+
+    <script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
+    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
+    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
+    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+    <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
+    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
+    <script src="assets/vendors/tiny-slider/tiny-slider.js"></script>
+    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
+    <script src="assets/vendors/owl-carousel/js/owl.carousel.min.js"></script>
+    <script src="assets/vendors/wow/wow.js"></script>
+    <script src="assets/vendors/imagesloaded/imagesloaded.min.js"></script>
+    <script src="assets/vendors/isotope/isotope.js"></script>
+    <script src="assets/vendors/slick/slick.min.js"></script>
+    <script src="assets/vendors/countdown/countdown.min.js"></script>
+    <script src="assets/vendors/jquery-circleType/jquery.circleType.js"></script>
+    <script src="assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
+    <script src="assets/vendors/progress-bar/knob.js"></script>
+    <!-- gsap js -->
+    <script src="assets/vendors/gsap/gsap.js"></script>
+    <script src="assets/vendors/gsap/scrolltrigger.min.js"></script>
+    <script src="assets/vendors/gsap/splittext.min.js"></script>
+    <script src="assets/vendors/gsap/alefox-split.js"></script>
+    <!-- template js -->
+    <!-- Custom Slider Video Logic -->
+    <script>
+        $(document).ready(function () {
+            var $owl = $('.main-slider-two__carousel');
+
+            function handleVideoSlide(event) {
+                // Find effective active item (handling loops)
+                // In Owl loop, .active might be multiple, but usually one center.
+                // We look for .active .hero-slider-video
+                var $activeVideo = $('.owl-item.active .hero-slider-video');
+
+                if ($activeVideo.length) {
+                    var video = $activeVideo[0];
+
+                    // Stop slider autoplay while video plays
+                    $owl.trigger('stop.owl.autoplay');
+
+                    video.currentTime = 0;
+                    video.play();
+
+                    // When video ends, move next and resume
+                    video.onended = function () {
+                        $owl.trigger('next.owl.carousel');
+                        $owl.trigger('play.owl.autoplay', [10000]); // 10s for next slides
+                    };
+                } else {
+                    // Normalize autoplay for non-video slides
+                    $owl.trigger('play.owl.autoplay', [10000]);
+
+                    // Pause any hidden videos to save resources
+                    $('.hero-slider-video').each(function () {
+                        this.pause();
+                    });
+                }
+            }
+
+            // Listen for slide initialization and changes
+            $owl.on('initialized.owl.carousel translated.owl.carousel', handleVideoSlide);
+
+            // Initial check in case initialized fired before we attached
+            setTimeout(handleVideoSlide, 500);
+        });
+    </script>
+    <script src="assets/js/alefox.js"></script>
+</body>
+
+</html>

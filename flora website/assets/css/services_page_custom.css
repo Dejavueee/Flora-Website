@@ -1,0 +1,748 @@
+/* Services Page Grid Styles (Soilux Layout) */
+
+/* Updated to match Soilux 'Rising Yellow' Animation EXACTLY */
+
+.service-card-soilux {
+    background-color: #fff;
+    /* Default White */
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    transition: all 0.4s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    z-index: 1;
+    /* Important for pseudo-element layering */
+}
+
+/* Rising Yellow Background Animation */
+.service-card-soilux:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: var(--accent-color);
+    /* Yellow */
+    border-radius: 400px 400px 0 0;
+    /* The "Curve" */
+    transition: all 0.4s ease-in-out;
+    z-index: -1;
+    /* Behind content */
+}
+
+.service-card-soilux:hover:before {
+    height: 100%;
+    border-radius: 0;
+    /* Straighten out */
+}
+
+.service-card-soilux:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Icon Box Styles */
+.service-card-icon {
+    width: 70px;
+    height: 70px;
+    background-color: var(--accent-color);
+    /* Yellow Default */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    transition: all 0.4s ease-in-out;
+    position: relative;
+    z-index: 1;
+}
+
+/* Icon Box Hover Animation (Circle Scale) */
+.service-card-icon:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    background: var(--primary-color);
+    /* Dark circle expands */
+    border-radius: 50%;
+    transition: all 0.4s ease-in-out;
+    z-index: -1;
+}
+
+.service-card-soilux:hover .service-card-icon:before {
+    transform: scale(1);
+}
+
+.service-card-icon i {
+    font-size: 30px;
+    color: var(--primary-color);
+    /* Dark Icon on Yellow */
+    transition: all 0.4s ease-in-out;
+    position: relative;
+    z-index: 2;
+}
+
+.service-card-soilux:hover .service-card-icon i {
+    color: #fff;
+    /* White icon on Dark circle (on Yellow card) */
+}
+
+/* Content Text Color on Hover */
+.service-card-content h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    line-height: 1.3;
+    transition: all 0.3s ease;
+}
+
+.service-card-content h3 a {
+    color: var(--primary-color);
+    transition: all 0.3s ease;
+}
+
+/* Heading Link stays dark or turns white? Soilux usually keeps title dark or specific. 
+   The yellow background is bright. Dark text is good. */
+.service-card-soilux:hover .service-card-content h3 a {
+    color: var(--primary-color);
+    /* Keep dark for contrast on yellow */
+}
+
+.service-card-content p {
+    color: var(--text-color);
+    margin-bottom: 20px;
+    line-height: 1.6;
+    transition: all 0.3s ease;
+}
+
+.service-card-soilux:hover .service-card-content p {
+    color: var(--primary-color);
+    /* Darker text on yellow */
+}
+
+/* Read More Button */
+.read-more-btn {
+    font-weight: 600;
+    color: var(--primary-color);
+    text-transform: capitalize;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    transition: all 0.3s ease;
+}
+
+.read-more-btn i {
+    font-size: 14px;
+    transition: margin-left 0.3s ease;
+}
+
+.service-card-soilux:hover .read-more-btn {
+    color: var(--primary-color);
+}
+
+.service-card-soilux:hover .read-more-btn i {
+    margin-left: 5px;
+}
+
+
+/* Why Choose Us Section Styles (Restored & Updated) */
+/***     07. Why Choose Us css    ***/
+/************************************/
+
+/* Soilux Variables for this section */
+.why-choose-us,
+.why-choose-us-box,
+.section-footer-text,
+.services-page-grid {
+    --primary-color: #2C2C2C;
+    --secondary-color: #F8F6EF;
+    --accent-color: #EECE38;
+    /* Soilux Yellow */
+    --text-color: #767676;
+    --white-color: #FFFFFF;
+    --divider-color: #2C2C2C1A;
+    --error-color: rgb(230, 87, 87);
+}
+
+.why-choose-us {
+    padding: 100px 0;
+}
+
+.why-choose-nav {
+    margin-bottom: 30px;
+}
+
+.why-choose-nav ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    border-bottom: 2px solid var(--divider-color);
+}
+
+.why-choose-nav ul li {
+    display: inline-block;
+    width: 33.33%;
+}
+
+.why-choose-nav ul li .nav-link {
+    position: relative;
+    width: 100%;
+    background: transparent;
+    border: none;
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.4em;
+    padding: 0 5px 20px;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in-out;
+}
+
+.why-choose-nav ul li .nav-link.active,
+.why-choose-nav ul li .nav-link:hover {
+    background: transparent;
+    color: var(--accent-color);
+}
+
+.why-choose-nav ul li .nav-link::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    left: auto;
+    right: 0;
+    background: var(--accent-color);
+    border-radius: 99px;
+    width: 0;
+    height: 2px;
+    transition: all 0.4s ease-in-out;
+}
+
+.why-choose-nav ul li .nav-link.active:before,
+.why-choose-nav ul li .nav-link:hover:before {
+    width: 100%;
+    left: 0;
+    right: auto;
+}
+
+.why-choose-tab-content p {
+    margin-bottom: 30px;
+}
+
+.why-choose-info-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    border-bottom: 1px solid var(--divider-color);
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.why-choose-info-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.why-choose-info-item .icon-box {
+    position: relative;
+    background: var(--accent-color);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.why-choose-info-item .icon-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    background: var(--primary-color);
+    border-radius: 50%;
+    z-index: 0;
+    transition: all 0.4s ease-in-out;
+}
+
+.why-choose-info-item:hover .icon-box::before {
+    transform: scale(1);
+}
+
+.why-choose-info-item .icon-box img {
+    position: relative;
+    width: 100%;
+    max-width: 24px;
+    transition: all 0.4s ease-in-out;
+}
+
+.why-choose-info-item:hover .icon-box img {
+    filter: brightness(0) invert(1);
+}
+
+.why-choose-info-item-content {
+    width: calc(100% - 65px);
+}
+
+.why-choose-info-item-content h3 {
+    font-size: 20px;
+}
+
+.why-choose-info-item-content p {
+    margin: 10px 0 0;
+}
+
+.why-choose-image-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    gap: 20px;
+    margin-left: 15px;
+}
+
+.why-choose-image-box-1 {
+    width: calc(48% - 10px);
+}
+
+.why-choose-image figure {
+    display: block;
+    border-radius: 20px;
+}
+
+.why-choose-image img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.why-choose-image-box-1 .why-choose-image figure img {
+    aspect-ratio: 1 / 1.6;
+}
+
+.why-choose-image-box-2 {
+    width: calc(52% - 10px);
+}
+
+.why-choose-image-box-2 .why-choose-image figure img {
+    aspect-ratio: 1 / 1.234;
+}
+
+.why-choose-info-box {
+    position: relative;
+    background-color: var(--accent-color);
+    border-radius: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+
+.why-choose-info-box:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: var(--primary-color);
+    border-radius: 12px;
+    z-index: 0;
+    transition: all 0.4s ease-in-out;
+}
+
+.why-choose-info-box:hover:after {
+    height: 100%;
+}
+
+.why-choose-info-box .icon-box {
+    position: relative;
+    background: var(--primary-color);
+    border-radius: 12px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.why-choose-info-box .icon-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: var(--accent-color);
+    width: 100%;
+    height: 100%;
+    transform: rotate(180deg) scale(0);
+    transition: all 0.4s ease-in-out;
+    z-index: 0;
+}
+
+.why-choose-info-box:hover .icon-box::before {
+    border-radius: 0;
+    transform: rotate(0) scale(1);
+}
+
+.why-choose-info-box .icon-box img {
+    position: relative;
+    width: 100%;
+    max-width: 30px;
+    transition: all 0.4s ease-in-out;
+}
+
+.why-choose-info-box:hover .icon-box img {
+    filter: brightness(0) invert(0);
+}
+
+.why-choose-info-content {
+    position: relative;
+    width: calc(100% - 75px);
+    z-index: 1;
+}
+
+.why-choose-info-content h3 {
+    font-size: 20px;
+    transition: all 0.4s ease-in-out;
+}
+
+.why-choose-info-box:hover .why-choose-info-content h3 {
+    color: var(--accent-color);
+}
+
+.why-choose-image-box-2 .contact-us-circle {
+    position: relative;
+    text-align: center;
+    margin-top: -50px;
+    z-index: 2;
+}
+
+.why-choose-image-box-2 .contact-us-circle a {
+    border: 6px solid var(--white-color);
+    display: inline-block;
+}
+
+.why-choose-us .section-footer-text {
+    margin-top: 60px;
+}
+
+/* Heading Pill Style for 'Why Choose Flora?' */
+.heading-pill {
+    display: inline-block;
+    border: 1px solid var(--primary-color);
+    /* Dark Border */
+    border-radius: 50px;
+    /* Rounded Corners */
+    padding: 6px 20px;
+    /* Reduced Size */
+    font-size: 14px;
+    /* Reduced Size */
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    background: transparent;
+    /* No Fill */
+    margin-bottom: 15px;
+}
+
+/* Also ensure the main container for the title handles it */
+.why-choose-content .section-title {
+    margin-bottom: 20px;
+}
+
+/* Section Footer Text (Trust Flora Section) Styles */
+.section-footer-text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    margin-top: 60px;
+}
+
+/* Paragraph Text */
+.section-footer-text p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.4;
+    color: var(--primary-color);
+    font-weight: 600;
+    max-width: 400px;
+}
+
+/* Client Images Container */
+.satisfy-client-images {
+    display: inline-flex;
+    align-items: center;
+}
+
+.satisfy-client-image {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    overflow: hidden;
+    margin-left: -15px;
+    /* Overlap effect */
+    position: relative;
+    z-index: 1;
+}
+
+.satisfy-client-image:first-child {
+    margin-left: 0;
+    z-index: 2;
+}
+
+.satisfy-client-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Add More Circle (Phone Icon usually) */
+.satisfy-client-image.add-more {
+    background: var(--accent-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+
+.satisfy-client-image.add-more img {
+    width: 18px;
+    height: 18px;
+    max-width: 100%;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
+    /* White icon */
+}
+
+/* Reviews List (Stars & Rating) */
+.section-footer-text ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+    border-left: 1px solid var(--divider-color);
+    padding-left: 20px;
+}
+
+.section-footer-text ul li {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 700;
+    color: var(--primary-color);
+    font-size: 16px;
+}
+
+.section-footer-text ul li i {
+    color: var(--accent-color);
+    /* Yellow Stars */
+    font-size: 14px;
+    margin-right: 2px;
+}
+
+/* Counter Text */
+.section-footer-text ul li .counter {
+    font-weight: 800;
+}
+
+/* Mobile Responsiveness for Footer Text */
+@media only screen and (max-width: 767px) {
+    .section-footer-text {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .section-footer-text ul {
+        border-left: none;
+        padding-left: 0;
+    }
+}/***     10. How It Works css     ***/
+/************************************/
+
+.how-it-work{
+	background-image: url('../images/section-bg-1.png');
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: 100% auto;
+	padding: 100px 0;
+}
+
+.how-work-step-box{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 60px 30px;
+}
+
+.how-work-item{
+	position: relative;
+	width: calc(25% - 22.5px);
+	text-align: center;
+}
+
+.how-work-item::before{
+	content: '';
+	position: absolute;
+	top: 25px;
+	left: 0;
+	right: 0;
+	transform: translateY(-50%);
+	border: 1px dashed var(--divider-color);
+	width: calc(100% + 30px);
+	height: 1px;
+}
+
+.how-work-item:last-child:before,
+.how-work-item:nth-child(4n + 4):before{
+	width: 100%;
+}
+
+.how-work-step-no{
+	position: relative;
+	width: 50px;
+	height: 50px;
+	background-color: var(--accent-color);
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto 40px;
+	z-index: 1;
+	transition: all 0.4s ease-in-out;
+}
+
+.how-work-step-no::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: var(--primary-color);
+	border-radius: 50%;
+	transform: scale(0);
+	transition: all 0.4s ease-in-out;
+}
+
+.how-work-item:hover .how-work-step-no::before{
+	transform: scale(1);
+}
+
+.how-work-step-no h3{
+	position: relative;
+	font-size: 20px;
+	transition: all 0.4s ease-in-out;
+	z-index: 1;
+}
+
+.how-work-item:hover .how-work-step-no h3{
+	color: var(--white-color);
+}
+
+.how-work-item-image{
+	margin-bottom: 40px;
+}
+
+.how-work-item-image figure{
+	display: inline-block;
+	width: 100%;
+	max-width: 190px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.how-work-item-image figure img{
+	width: 100%;
+	border-radius: 50%;
+	transition: all 0.6s ease-in-out;
+	overflow: hidden;
+}
+
+.how-work-item:hover .how-work-item-image figure img{
+	transform: scale(1.04);
+}
+
+.how-work-item-content h3{
+	font-size: 20px;
+}
+
+.how-work-item-content p{
+	margin: 10px 0 0;
+}
+
+.how-work-item-list{
+	border-top: 1px solid var(--divider-color);
+	padding-top: 20px;
+	margin-top: 20px;
+}
+
+.how-work-item-list ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.how-work-item-list ul li{
+	position: relative;
+	display: inline-block;
+	text-align: left;
+	line-height: 1.4em;
+	color: var(--primary-color);
+	padding-left: 15px;
+	margin-bottom: 15px;
+}
+
+.how-work-item-list ul li:last-child{
+	margin-bottom: 0;
+}
+
+.how-work-item-list ul li::before{
+	content: '';
+	position: absolute;
+	top: 9px;
+	left: 0;
+	background-color: var(--accent-color);
+	border-radius: 50%;
+	width: 5px;
+	height: 5px;
+}
+
+.how-it-work .section-footer-text{
+	margin-top: 60px;
+}
+
+/************************************/

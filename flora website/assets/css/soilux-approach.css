@@ -1,0 +1,390 @@
+/* Scoped Variables for Our Approach Section */
+.our-approach {
+    --primary-color: #2C2C2C;
+    --secondary-color: #F8F6EF;
+    --bg-color: #FFFFFF;
+    --text-color: #767676;
+    --accent-color: #EECE38;
+    --white-color: #FFFFFF;
+    --divider-color: #2C2C2C1A;
+    --dark-divider-color: #FFFFFF1A;
+    --error-color: rgb(230, 87, 87);
+    /* Using Alefox fonts for consistency, or fallback to sans-serif */
+    --default-font: "Rubik", "Inter", sans-serif;
+    font-family: var(--default-font);
+    color: var(--text-color);
+}
+
+/* Helper Classes */
+.bg-section {
+    width: 100%;
+    /* max-width: 1880px;  Removed to fit Alefox layout better */
+    background: var(--secondary-color);
+    border-radius: 12px;
+    margin: 0 auto;
+}
+
+.bg-section .container-fluid {
+    padding: 0;
+}
+
+.section-row {
+    margin-bottom: 80px;
+}
+
+.section-row .section-title {
+    margin-bottom: 0;
+}
+
+/* Section Title */
+.section-title {
+    margin-bottom: 40px;
+}
+
+.section-title h3 {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1em;
+    border: 1px solid var(--divider-color);
+    border-radius: 40px;
+    padding: 8px 15px 8px 30px;
+    margin-bottom: 15px;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.section-title h3::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    background: var(--accent-color);
+    border-radius: 100px;
+    width: 5px;
+    height: 5px;
+}
+
+.section-title h2 {
+    font-size: 52px;
+    line-height: 1.1em;
+    letter-spacing: -0.02em;
+    margin-bottom: 0;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.section-title p {
+    margin-top: 20px;
+    margin-bottom: 0;
+    line-height: 1.6em;
+}
+
+.section-title-content p {
+    margin-bottom: 20px;
+    line-height: 1.6em;
+    margin-bottom: 1.5em;
+}
+
+.section-title-content p:last-child {
+    margin-bottom: 0;
+}
+
+.section-content-btn .section-btn {
+    margin-top: 30px;
+    text-align: left;
+}
+
+/* Buttons */
+.btn-default {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1em;
+    text-transform: capitalize;
+    color: var(--primary-color);
+    background: var(--accent-color);
+    border-radius: 100px;
+    padding: 17px 45px 17px 24px;
+    border: none;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+    z-index: 1;
+}
+
+.btn-default:hover {
+    color: var(--bg-color);
+}
+
+.btn-default::before {
+    content: '\f061';
+    font-family: "Font Awesome 5 Free";
+    /* Try 5 or 6 depending on what's loaded. Alefox uses "Font Awesome 5 Brands" and "Free"? I see all.min.css. Usually "Font Awesome 5 Free" works with weight 900 */
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    right: 24px;
+    font-size: 14px;
+    transform: translateY(-50%);
+    transition: all 0.4s ease-in-out;
+    color: var(--primary-color);
+}
+
+.btn-default:hover::before {
+    transform: translateY(-50%) rotate(-45deg);
+    color: var(--bg-color);
+}
+
+.btn-default::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 100%;
+    background: var(--primary-color);
+    transition: all 0.4s ease-in-out;
+    z-index: -1;
+}
+
+.btn-default:hover:after {
+    right: auto;
+    left: 0;
+    width: 100%;
+}
+
+/* Image Anime & Reveal */
+.image-anime {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-anime:after {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 0%;
+    left: 50%;
+    top: 50%;
+    background-color: rgba(255, 255, 255, .3);
+    transform: translate(-50%, -50%) rotate(-45deg);
+    z-index: 1;
+}
+
+.image-anime:hover:after {
+    height: 250%;
+    transition: all 600ms linear;
+    background-color: transparent;
+}
+
+.reveal {
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+.reveal img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -webkit-transform-origin: left;
+    transform-origin: left;
+}
+
+/* Our Approach Specifics */
+.our-approach {
+    padding: 100px 0;
+}
+
+.approach-item {
+    height: calc(100% - 30px);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.approach-item-image {
+    width: calc(50% - 15px);
+}
+
+.approach-item-image figure {
+    display: block;
+    height: 100%;
+    border-radius: 12px;
+    margin: 0;
+}
+
+.approach-item-image figure img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1 / 1.058;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.approach-item-body {
+    width: calc(50% - 15px);
+    min-height: 365px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.approach-item-body .icon-box {
+    position: relative;
+    background: var(--accent-color);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.approach-item-body .icon-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: var(--primary-color);
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: all 0.4s ease-in-out;
+    z-index: 0;
+}
+
+.approach-item-body:hover .icon-box::before {
+    transform: scale(1);
+}
+
+.approach-item-body .icon-box img {
+    position: relative;
+    width: 100%;
+    max-width: 24px;
+    transition: all 0.4s ease-in-out;
+    z-index: 1;
+}
+
+.approach-item-body:hover .icon-box img {
+    filter: brightness(0) invert(1);
+}
+
+.approach-item-content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.approach-item-content p {
+    margin: 0;
+    line-height: 1.6em;
+}
+
+.approach-item-content ul {
+    list-style: disc;
+    border-top: 1px solid var(--divider-color);
+    margin: 20px 0 0;
+    padding: 20px 0 0 15px;
+}
+
+.approach-item-content ul li {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5em;
+    color: var(--primary-color);
+}
+
+.approach-item-content ul li::marker {
+    color: var(--accent-color);
+}
+
+/* Responsive adjustments for Our Approach */
+@media only screen and (max-width: 991px) {
+    .approach-item {
+        gap: 20px;
+    }
+
+    .approach-item-image,
+    .approach-item-body {
+        width: 100%;
+    }
+
+    .approach-item-body {
+        min-height: auto;
+        padding-top: 20px;
+    }
+}
+
+/* Company Slider Box */
+.approach-company-slider-box {
+    margin-top: 50px;
+}
+
+.approach-company-slider-box .company-supports-slider {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.approach-company-slider-box .company-supports-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.approach-company-slider-box .company-supports-content hr {
+    height: 1px;
+    width: 35%;
+    color: var(--divider-color);
+    opacity: 1;
+    margin: 0;
+}
+
+.approach-company-slider-box .company-supports-content p {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.approach-company-slider-box .company-supports-logo img {
+    width: 100%;
+    max-width: 170px;
+    height: 60px;
+    /* Increased height for visibility */
+    object-fit: contain;
+    filter: none;
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.approach-company-slider-box .company-supports-logo img:hover {
+    filter: none;
+    opacity: 1;
+}
+
+@media only screen and (max-width: 991px) {
+    .approach-company-slider-box .company-supports-content {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .approach-company-slider-box .company-supports-content hr {
+        width: 100%;
+    }
+}
