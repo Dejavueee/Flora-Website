@@ -779,6 +779,13 @@
 
   // window load event
 
+  // Force hide after 1.5 seconds (1500ms) even if videos are still loading
+  setTimeout(function () {
+    if ($('.preloader').length) {
+      $('.preloader').fadeOut();
+    }
+  }, 1500);
+
   $(window).on("load", function () {
     if ($(".preloader").length) {
       $(".preloader").fadeOut();
