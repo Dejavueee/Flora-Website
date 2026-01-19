@@ -388,3 +388,9 @@
         width: 100%;
     }
 }
+
+/* Added for resizing specific logos */
+.approach-company-slider-box .owl-stage {
+    display: flex;
+    align-items: center;
+}

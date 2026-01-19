@@ -41,10 +41,10 @@ $(document).ready(function () {
         { id: 119, category: 'solar', name: 'Fuse Holder', price: '$10.00', image: 'assets/images/products/solar-fuse-holder.png' },
         { id: 120, category: 'solar', name: 'Surge Protection', price: '$35.00', image: 'assets/images/products/solar-surge-protection.png' },
         { id: 121, category: 'solar', name: 'Combiner Box 2-in-2', price: '$85.00', image: 'assets/images/products/solar-combiner-box.png' },
-        { id: 122, category: 'solar', name: 'Solar Flood Light', price: '$40.00', image: 'assets/images/products/product-1-6.png' },
+        { id: 122, category: 'solar', name: 'Solar Flood Light', price: '$40.00', image: 'assets/images/products/solar-flood-light.png' },
         { id: 123, category: 'solar', name: 'Solar Street Light', price: '$75.00', image: 'assets/images/products/solar-street-light.png' },
-        { id: 124, category: 'solar', name: 'Solar Water Pump', price: '$250.00', image: 'assets/images/products/product-1-8.png' },
-        { id: 125, category: 'solar', name: 'Portable Solar Kit', price: '$150.00', image: 'assets/images/products/product-1-1.png' }
+        { id: 124, category: 'solar', name: 'Solar Water Pump', price: '$250.00', image: 'assets/images/products/solar-water-pump.png' },
+        { id: 125, category: 'solar', name: 'Portable Solar Kit', price: '$150.00', image: 'assets/images/products/portable-solar-kit.png' }
     ];
 
     const itemsPerPage = 9;
