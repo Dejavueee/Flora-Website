@@ -43,8 +43,7 @@ foreach ($file in $files) {
 
         # 1. Update Logo (Dark -> Light)
         # We explicitly look for the logo-dark in the logo-box
-        # (?s) enables dot matching newlines
-        $content = $content -replace '(?s)(<div class="logo-box">.*?<img src="assets/images/)logo-dark.png', '$1logo-light.png'
+        $content = $content -replace '(<div class="logo-box">.*?<img src="assets/images/)logo-dark.png', '$1logo-light.png'
 
         # 2. Replace Contact Block
         $contactPattern = '(?s)<ul class="mobile-nav__contact list-unstyled">.*?</ul><!-- /.mobile-nav__contact -->'
