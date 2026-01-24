@@ -1,4 +1,4 @@
-/*--------------------------------------------------------------
+﻿/*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
 # Utility
@@ -10467,14 +10467,8 @@ body.megamenu-popup-active .mobile-nav__content {
   height: 202px;
   background-position: left bottom;
   background-repeat: no-repeat;
-  display: none;
+  display: block;
   animation: treeMove 4s linear 0s infinite;
-}
-
-@media (min-width: 1500px) {
-  .faq-one__shape {
-    display: block;
-  }
 }
 
 .faq-one__content {
@@ -12293,21 +12287,21 @@ body.megamenu-popup-active .mobile-nav__content {
 .page-header {
   background-color: var(--alefox-black2, #202221);
   position: relative;
-  padding-top: 195px;
+  padding-top: 230px;
   padding-bottom: 200px;
   overflow: hidden;
 }
 
 @media (max-width: 1199px) {
   .page-header {
-    padding-top: 175px;
+    padding-top: 220px;
     padding-bottom: 180px;
   }
 }
 
 @media (max-width: 767px) {
   .page-header {
-    padding-top: 110px;
+    padding-top: 200px;
     padding-bottom: 110px;
   }
 }
